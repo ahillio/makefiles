@@ -2,9 +2,14 @@ projects[admin_menu][version] = 3.0-rc4
 projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 1.7
 
+projects[field_collection_deploy][version] = 1.o-beta1
+projects[node_export][version] = 3.0
+projects[uuid][version] = 1.0-alpha5
+projects[features][version] = 2.0-rc2
+
+projects[diff][version] = 3.2
 projects[entity][version] = 1.2
 projects[ctools][version] = 1.x-dev
-projects[features][version] = 2.0-rc2
 projects[libraries][version] = 2.1
 projects[token][version] = 1.5
 projects[entityreference][version] = 1.x-dev
@@ -47,6 +52,8 @@ projects[field_collection][version] = 1.0-beta5
 
 projects[media][version] = 1.3
 ; projects[file_entity][version] = 2.0-alpha2
+projects[picture][version] = 1.2
+projects[breakpoints][version] = 1.1
 projects[remote_stream_wrapper][version] = 1.0-beta4
 projects[emfield][version] = 1.0-alpha2 
 projects[mediafront][version] = 2.0-rc8
