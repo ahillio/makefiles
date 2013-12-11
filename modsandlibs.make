@@ -44,6 +44,7 @@ projects[relation][version] = 1.0-rc4
 projects[select_or_other] = 2.2
 projects[interval][version] = 1.0-rc1
 projects[link][version] = 1.1
+projects[email][version] = 1.2
 projects[addressfield][version] = 1.0-beta4
 projects[physical][version] = 1.x-dev
 projects[telephone][version] = 1.x-dev
