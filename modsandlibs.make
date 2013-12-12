@@ -1,6 +1,7 @@
 projects[admin_menu][version] = 3.0-rc4
 projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 1.7
+projects[advanced_help][version] = 1.0
 
 projects[field_collection_deploy][version] = 1.o-beta1
 projects[node_export][version] = 3.0
