@@ -7,6 +7,7 @@ projects[node_export][version] = 3.0
 projects[uuid][version] = 1.0-alpha5
 projects[features][version] = 2.0-rc2
 
+projects[entity_view_mode][version] = 1.0-rc1
 projects[diff][version] = 3.2
 projects[entity][version] = 1.2
 projects[ctools][version] = 1.x-dev
