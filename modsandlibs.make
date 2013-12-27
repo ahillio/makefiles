@@ -122,8 +122,12 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory-name] = "ckeditor"
 
 libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/blob/master/jquery.cycle.all.js"
+libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
+
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
+libraries[flexslider][directory_name] = "flexslider"
 
 libraries[nivo-slider][download][type] = "get"
 libraries[nivo-slider][download][url] = "https://github.com/downloads/gilbitron/Nivo-Slider/nivo-slider3.1.zip"
