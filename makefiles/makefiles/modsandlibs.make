@@ -1,17 +1,10 @@
 projects[admin_menu][version] = 3.0-rc4
 projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 1.7
-projects[advanced_help][version] = 1.0
 
-projects[field_collection_deploy][version] = 1.o-beta1
-projects[node_export][version] = 3.0
-projects[uuid][version] = 1.0-alpha5
-projects[features][version] = 2.0-rc2
-
-projects[entity_view_mode][version] = 1.0-rc1
-projects[diff][version] = 3.2
 projects[entity][version] = 1.2
 projects[ctools][version] = 1.x-dev
+projects[features][version] = 2.0-rc2
 projects[libraries][version] = 2.1
 projects[token][version] = 1.5
 projects[entityreference][version] = 1.x-dev
@@ -30,6 +23,8 @@ projects[views][version] = 3.7
 projects[views_bulk_operations][version] = 3.1
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
+projects[webform][version] = 3.18
+projects[webform_rules][version] = 1.6
 projects[calendar][version] = 3.4
 projects[flag][version] = 2.1
 projects[panels][version] = 3.3
@@ -41,15 +36,9 @@ projects[message_subscribe][version] = 1.x-dev
 projects[registration][version] = 1.1
 projects[relation][version] = 1.0-rc4
 
-projects[webform][version] = 3.18
-projects[webform_rules][version] = 1.6
-projects[webform_conditional][version] = 1.0-beta2
-projects[webform_template][version] = 1.2
-
 projects[select_or_other] = 2.2
 projects[interval][version] = 1.0-rc1
 projects[link][version] = 1.1
-projects[email][version] = 1.2
 projects[addressfield][version] = 1.0-beta4
 projects[physical][version] = 1.x-dev
 projects[telephone][version] = 1.x-dev
@@ -58,8 +47,6 @@ projects[field_collection][version] = 1.0-beta5
 
 projects[media][version] = 1.3
 ; projects[file_entity][version] = 2.0-alpha2
-projects[picture][version] = 1.2
-projects[breakpoints][version] = 1.1
 projects[remote_stream_wrapper][version] = 1.0-beta4
 projects[emfield][version] = 1.0-alpha2 
 projects[mediafront][version] = 2.0-rc8
@@ -72,7 +59,6 @@ projects[flexslider][version] = 2.0-alpha1
 
 projects[fontyourface][version] = 2.8
 
-projects[om_maximenu][version] = 1.44
 projects[superfish][version] = 1.9 
 projects[draggableviews][version] = 2.0
 projects[views_accordion][version] = 1.0-rc2
@@ -85,7 +71,6 @@ projects[exclude_node_title][version] = 1.6
 projects[wysiwyg][version] = 2.2
 projects[ckeditor][version] = 1.13
 projects[ckeditor_link][version] = 2.3
-
 
 projects[widgets][version] = 1.0-rc1
 projects[service_links][version] = 2.1
@@ -127,12 +112,8 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory-name] = "ckeditor"
 
 libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip"
+libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/blob/master/jquery.cycle.all.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
-
-libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
-libraries[flexslider][directory_name] = "flexslider"
 
 libraries[nivo-slider][download][type] = "get"
 libraries[nivo-slider][download][url] = "https://github.com/downloads/gilbitron/Nivo-Slider/nivo-slider3.1.zip"
