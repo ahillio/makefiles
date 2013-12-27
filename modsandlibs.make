@@ -3,7 +3,7 @@ projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 1.7
 projects[advanced_help][version] = 1.0
 
-projects[field_collection_deploy][version] = 1.o-beta1
+projects[field_collection_deploy][version] = 1.0-beta1
 projects[node_export][version] = 3.0
 projects[uuid][version] = 1.0-alpha5
 projects[features][version] = 2.0-rc2
