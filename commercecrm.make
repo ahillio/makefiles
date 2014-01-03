@@ -92,7 +92,7 @@ projects[mailchimp][version] = 2.10
 projects[mandrill][version] = 1.4
 projects[mailsystem][version] = 2.34
 
-projects[casetracker][version] = 1.x-dev
+projects[casetracker][version] = 1.0-alpha1
 projects[time_tracker][version] = 1.1
 
 projects[omega_tools][version] = 3.0-rc4
