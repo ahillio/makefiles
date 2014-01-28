@@ -3,27 +3,31 @@ projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 1.7
 projects[advanced_help][version] = 1.0
 
+projects[features][version] = 2.0-rc2
+projects[uuid_features][version] = 1.0-alpha3
+projects[strongarm][version] = 2.0
 projects[field_collection_deploy][version] = 1.0-beta1
 projects[node_export][version] = 3.0
 projects[uuid][version] = 1.0-alpha5
-projects[features][version] = 2.0-rc2
+projects[feeds][version] = 2.x-dev
+projects[feeds][download][url] = "http://git.drupal.org/project/feeds.git"
+projects[feeds_tamper][version] = 1.0-beta5
+projects[field_collection_feeds][version] = 1.0-alpha3
 
 projects[entity_view_mode][version] = 1.0-rc1
 projects[diff][version] = 3.2
-projects[entity][version] = 1.2
+projects[entity][version] = 1.3
 projects[ctools][version] = 1.x-dev
 projects[libraries][version] = 2.1
 projects[token][version] = 1.5
-projects[entityreference][version] = 1.x-dev
-projects[strongarm][version] = 2.0
 projects[job_scheduler][version] = 2.0-alpha3
-projects[feeds][version] = 2.0-alpha8
-projects[feeds_tamper][version] = 1.0-beta5
 
 projects[logintoboggan][version] = 1.3
 projects[email_registration][version] = 1.1
 projects[persistent_login][version] = 1.0-beta1
 
+projects[entityform][version] = 2.0-beta2
+projects[entityform_block][version] = 1.0
 projects[context][version] = 3.1
 projects[date][version] = 2.6
 projects[views][version] = 3.7
@@ -46,6 +50,8 @@ projects[webform_rules][version] = 1.6
 projects[webform_conditional][version] = 1.0-beta2
 projects[webform_template][version] = 1.2
 
+projects[entityreference][version] = 1.x-dev
+projects[entityreference-prepopulate][version] = 1.4
 projects[select_or_other] = 2.2
 projects[interval][version] = 1.0-rc1
 projects[link][version] = 1.1
@@ -56,6 +62,9 @@ projects[telephone][version] = 1.x-dev
 projects[field_group][version] = 1.2
 projects[field_collection][version] = 1.0-beta5
 
+projects[imce][version] = 1.8
+projects[imce_mkdir][version] = 1.0
+projects[filefield_sources][version] = 1.9
 projects[media][version] = 1.3
 ; projects[file_entity][version] = 2.0-alpha2
 projects[picture][version] = 1.2
@@ -70,6 +79,7 @@ projects[colorbox][version] = 2.4
 projects[colorbox_node][version] = 2.6
 projects[flexslider][version] = 2.0-alpha1
 
+projects[backstretch][version] = 2.x-dev
 projects[fontyourface][version] = 2.8
 
 projects[om_maximenu][version] = 1.44
@@ -79,6 +89,7 @@ projects[views_accordion][version] = 1.0-rc2
 projects[views_slideshow][version] = 3.0
 projects[quicktabs][version] = 3.4
 projects[css_injector][version] = 1.8
+projects[jquery_update][version] = 2.3
     
 projects[save_draft][version] = 1.4
 projects[exclude_node_title][version] = 1.6
@@ -107,12 +118,15 @@ projects[devel][version] = 1.3
 projects[devel_themer][version] = 1.x-dev
 projects[simplehtmldom][version] = 1.12
 
+projects[modernizr][version] = 3.1
+
 projects[google_analytics][version] = 1.3
 projects[xmlsitemap][version] = 2.0-beta3
 projects[metatag][version] = 1.0-beta4
 projects[pathauto][version] = 1.2
 projects[globalredirect][version] = 1.5
 projects[extlink][version] = 1.13
+projects[redirect][version] = 1.0-rc1
 
 
 ; Libraries
