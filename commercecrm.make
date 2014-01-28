@@ -98,4 +98,4 @@ projects[casetracker][version] = 1.0-alpha1
 projects[time_tracker][version] = 1.1
 
 projects[acl][version] = 1.0
-projects[content_access] = 1.2-beta2
+projects[content_access][version] = 1.2-beta2
