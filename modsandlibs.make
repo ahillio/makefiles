@@ -10,6 +10,7 @@ projects[field_collection_deploy][version] = 1.0-beta1
 projects[node_export][version] = 3.0
 projects[uuid][version] = 1.0-alpha5
 projects[feeds][version] = 2.x-dev
+projects[feeds][download][type] = "get"
 projects[feeds][download][url] = "http://git.drupal.org/project/feeds.git"
 projects[feeds_tamper][version] = 1.0-beta5
 projects[field_collection_feeds][version] = 1.0-alpha3
