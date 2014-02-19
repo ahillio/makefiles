@@ -9,9 +9,9 @@ projects[strongarm][version] = 2.0
 projects[field_collection_deploy][version] = 1.0-beta1
 projects[node_export][version] = 3.0
 projects[uuid][version] = 1.0-alpha5
-projects[feeds][version] = 2.x-dev
-projects[feeds][download][type] = "get"
-projects[feeds][download][url] = "http://git.drupal.org/project/feeds.git"
+// projects[feeds][version] = 2.x-dev
+// projects[feeds][download][type] = "get"
+// projects[feeds][download][url] = "http://git.drupal.org/project/feeds.git"
 projects[feeds_tamper][version] = 1.0-beta5
 projects[field_collection_feeds][version] = 1.0-alpha3
 
@@ -43,7 +43,7 @@ projects[workflow][version] = 2.0-beta4
 projects[message][version] = 1.7
 projects[message_notify][version] = 2.4
 projects[message_subscribe][version] = 1.x-dev
-projects[registration][version] = 1.1
+projects[registration][version] = 1.3
 projects[relation][version] = 1.0-rc4
 
 projects[webform][version] = 3.18

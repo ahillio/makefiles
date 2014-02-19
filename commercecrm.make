@@ -84,7 +84,7 @@ projects[commerce_order_reference][version] = 1.0-alpha1
 projects[commerce_cardonfile][version] = 1.x-dev
 projects[commerce_recurring][version] = 1.x-dev
 
-projects[redhen][version] = 1.x-dev
+projects[redhen][version] = 1.7
 projects[redhen_feeds][version] = 1.0-alpha2
 projects[redhen_membership][version] = 1.0
 
