@@ -99,3 +99,8 @@ projects[time_tracker][version] = 1.1
 
 projects[acl][version] = 1.0
 projects[content_access][version] = 1.2-beta2
+
+projects[contact_importer][version] = 1.2
+projects[invite][version] = 4.0-beta2
+projects[rpx][version] = 2.6
+projects[oauth][version] = 3.2

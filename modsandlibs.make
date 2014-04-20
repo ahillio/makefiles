@@ -35,6 +35,7 @@ projects[views][version] = 3.7
 projects[views_bulk_operations][version] = 3.1
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
+projects[better_exposed_filters][version] = beta4
 projects[calendar][version] = 3.4
 projects[flag][version] = 2.1
 projects[panels][version] = 3.3
@@ -45,9 +46,9 @@ projects[message_notify][version] = 2.4
 projects[message_subscribe][version] = 1.x-dev
 projects[registration][version] = 1.3
 projects[relation][version] = 1.0-rc4
+projects[afb][version] = 1.0
+projects[nodequeue][version] = 2.0-beta1
 
-projects[webform][version] = 3.18
-projects[webform_rules][version] = 1.6
 projects[webform_conditional][version] = 1.0-beta2
 projects[webform_template][version] = 1.2
 
@@ -62,6 +63,7 @@ projects[physical][version] = 1.x-dev
 projects[telephone][version] = 1.x-dev
 projects[field_group][version] = 1.2
 projects[field_collection][version] = 1.0-beta5
+projects[chosen][version] = 2.0-beta4
 
 projects[imce][version] = 1.8
 projects[imce_mkdir][version] = 1.0
@@ -71,33 +73,33 @@ projects[media][version] = 1.3
 projects[picture][version] = 1.2
 projects[breakpoints][version] = 1.1
 projects[remote_stream_wrapper][version] = 1.0-beta4
-projects[emfield][version] = 1.0-alpha2 
+projects[emfield][version] = 1.0-alpha2
 projects[mediafront][version] = 2.0-rc8
 projects[media_youtube][version] = 2.0-rc3
-projects[plupload][version] = 1.1 
+projects[plupload][version] = 1.1
 projects[imagecrop][version] = 1.0-rc3
 projects[colorbox][version] = 2.4
 projects[colorbox_node][version] = 2.6
 projects[flexslider][version] = 2.0-alpha1
+projects[galleria][version] = 1.0-beta3
 
 projects[backstretch][version] = 2.x-dev
 projects[fontyourface][version] = 2.8
 
 projects[om_maximenu][version] = 1.44
-projects[superfish][version] = 1.9 
+projects[superfish][version] = 1.9
 projects[draggableviews][version] = 2.0
 projects[views_accordion][version] = 1.0-rc2
 projects[views_slideshow][version] = 3.0
 projects[quicktabs][version] = 3.4
 projects[css_injector][version] = 1.8
 projects[jquery_update][version] = 2.3
-    
+
 projects[save_draft][version] = 1.4
 projects[exclude_node_title][version] = 1.6
 projects[wysiwyg][version] = 2.2
 projects[ckeditor][version] = 1.13
 projects[ckeditor_link][version] = 2.3
-
 
 projects[widgets][version] = 1.0-rc1
 projects[service_links][version] = 2.1
@@ -114,6 +116,7 @@ projects[conch][version] = 2.0
 projects[adaptivetheme][version] = 3.1
 projects[pixture_reloaded][version] = 3.0-rc1
 
+projects[themekey][version] = 3.1
 projects[omega_tools][version] = 3.0-rc4
 projects[devel][version] = 1.3
 projects[devel_themer][version] = 1.x-dev
@@ -128,6 +131,8 @@ projects[pathauto][version] = 1.2
 projects[globalredirect][version] = 1.5
 projects[extlink][version] = 1.13
 projects[redirect][version] = 1.0-rc1
+projects[search404][version] = 1.3
+
 
 
 ; Libraries
