@@ -1,6 +1,6 @@
 projects[admin_menu][version] = 3.0-rc4
 projects[filter_perms][version] = 1.0
-projects[module_filter][version] = 1.7
+projects[module_filter][version] = 2.0-alpha2
 projects[advanced_help][version] = 1.0
 
 projects[features][version] = 2.0-rc2
@@ -19,9 +19,11 @@ projects[entity_view_mode][version] = 1.0-rc1
 projects[diff][version] = 3.2
 projects[entity][version] = 1.3
 projects[ctools][version] = 1.x-dev
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 projects[token][version] = 1.5
 projects[job_scheduler][version] = 2.0-alpha3
+projects[menu_token][version] = 1.0-beta5
+projects[menu_attributes] = 1.0-rc2
 
 projects[logintoboggan][version] = 1.3
 projects[email_registration][version] = 1.1
@@ -29,21 +31,22 @@ projects[persistent_login][version] = 1.0-beta1
 
 projects[entityform][version] = 2.0-beta2
 projects[entityform_block][version] = 1.0
-projects[context][version] = 3.1
-projects[date][version] = 2.6
+projects[context][version] = 3.2
+projects[date][version] = 2.7
 projects[views][version] = 3.7
 projects[views_bulk_operations][version] = 3.1
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
-projects[better_exposed_filters][version] = beta4
+projects[better_exposed_filters][version] = 3.0-beta4
 projects[calendar][version] = 3.4
 projects[flag][version] = 2.1
 projects[panels][version] = 3.3
-projects[rules][version] = 2.3
+projects[rules][version] = 2.6
 projects[workflow][version] = 2.0-beta4
 projects[message][version] = 1.7
 projects[message_notify][version] = 2.4
 projects[message_subscribe][version] = 1.x-dev
+projects[message_ui][version] = 1.4
 projects[registration][version] = 1.3
 projects[relation][version] = 1.0-rc4
 projects[afb][version] = 1.0
@@ -56,7 +59,7 @@ projects[entityreference][version] = 1.x-dev
 projects[entityreference_prepopulate][version] = 1.4
 projects[select_or_other] = 2.2
 projects[interval][version] = 1.0-rc1
-projects[link][version] = 1.1
+projects[link][version] = 1.2
 projects[email][version] = 1.2
 projects[addressfield][version] = 1.0-beta4
 projects[physical][version] = 1.x-dev
@@ -80,7 +83,7 @@ projects[plupload][version] = 1.1
 projects[imagecrop][version] = 1.0-rc3
 projects[colorbox][version] = 2.4
 projects[colorbox_node][version] = 2.6
-projects[flexslider][version] = 2.0-alpha1
+projects[flexslider][version] = 2.0-alpha3
 projects[galleria][version] = 1.0-beta3
 
 projects[backstretch][version] = 2.x-dev
@@ -104,8 +107,9 @@ projects[ckeditor_link][version] = 2.3
 projects[widgets][version] = 1.0-rc1
 projects[service_links][version] = 2.1
 projects[sharethis][version] = 2.5
-projects[mollom][version] = 2.6
+projects[mollom][version] = 2.9
 projects[honeypot][version] = 1.14
+projects[disqus][version] = 1.10
 
 projects[omega][version] = 3.1
 projects[delta][version] = 3.0-beta11
@@ -118,27 +122,31 @@ projects[pixture_reloaded][version] = 3.0-rc1
 
 projects[themekey][version] = 3.1
 projects[omega_tools][version] = 3.0-rc4
-projects[devel][version] = 1.3
+projects[devel][version] = 1.4
 projects[devel_themer][version] = 1.x-dev
 projects[simplehtmldom][version] = 1.12
 
 projects[modernizr][version] = 3.1
 
 projects[google_analytics][version] = 1.3
-projects[xmlsitemap][version] = 2.0-beta3
-projects[metatag][version] = 1.0-beta4
+projects[xmlsitemap][version] = 2.0-rc2
+projects[metatag][version] = 1.0-beta9
 projects[pathauto][version] = 1.2
 projects[globalredirect][version] = 1.5
 projects[extlink][version] = 1.13
 projects[redirect][version] = 1.0-rc1
 projects[search404][version] = 1.3
-
+projects[checklistapi][version] = 1.1
+projects[seo_checklist][version] = 4.1
+projects[site_verify][version] = 1.1
 
 
 ; Libraries
 ; ---------
 ; TinyMCE
 libraries[tinymce][download][type] = "get"
+projects[webform][version] = 3.18
+projects[webform_rules][version] = 1.6
 libraries[tinymce][download][url] = "https://github.com/downloads/tinymce/tinymce/tinymce_3.5.8_jquery.zip"
 libraries[tinymce][directory_name] = "tinymce"
 

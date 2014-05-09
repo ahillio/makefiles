@@ -14,7 +14,7 @@ includes[] = ./modsandlibs.make
 
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = 1.5
+projects[commerce][version] = 1.9
 projects[commerce][subdir] = "contrib"
 projects[commerce_features][version] = 1.0-rc1
 projects[commerce_features][subdir] = "contrib"
@@ -104,3 +104,4 @@ projects[contact_importer][version] = 1.2
 projects[invite][version] = 4.0-beta2
 projects[rpx][version] = 2.6
 projects[oauth][version] = 3.2
+projects[userpoints][version] = 1.0
