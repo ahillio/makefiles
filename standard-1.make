@@ -13,5 +13,5 @@ projects[drupal][version] = 7
 includes[] = ./modsandlibs.make
 
 
-
+projects[media][version] = 1.4
 

@@ -12,6 +12,7 @@ projects[drupal][version] = 7
 ; ------------------------
 includes[] = ./modsandlibs.make
 
+projects[media][version] = 1.4
 
 ; Drupal Commerce and Commerce contribs.
 projects[commerce][version] = 1.9
@@ -51,6 +52,7 @@ projects[commerce_payleap][version] = 1.1
 projects[commerce_payleap][subdir] = "contrib"
 projects[commerce_paypal][subdir] = "contrib"
 projects[commerce_paypal][version] = 2.0-beta1
+projects[commerce_stripe][version] = 1.x-dev
 projects[commerce_cod][version] = 1.0
 projects[commerce_invoice_receipt][version] = 1.0
 projects[commerce_pay_in_person][version] = 1.0-beta1
@@ -62,10 +64,10 @@ projects[commerce_autosku][version] = 1.x-dev
 projects[commerce_autosku][subdir] = "contrib"
 projects[commerce_message][subdir] = "contrib"
 projects[commerce_message][version] = 1.0-beta1
-projects[inline_entity_form][version] = 1.3
+projects[inline_entity_form][version] = 1.5
+projects[inline_conditions][version] = 1.0-alpha4
 projects[views_megarow][version] = 1.0
 projects[commerce_rules_extra][version] = 1.1
-projects[eva][version] = 1.2
 
 projects[commerce_extra_price_formatters][version] = 1.x-dev
 projects[commerce_extra_price_formatters][subdir] = "contrib"
@@ -81,18 +83,20 @@ projects[commerce_webform][version] = 1.0-beta6
 
 projects[commerce_custom_order_status][version] = 1.0
 projects[commerce_order_reference][version] = 1.0-alpha1
-projects[commerce_cardonfile][version] = 1.x-dev
-projects[commerce_recurring][version] = 1.x-dev
+projects[commerce_cardonfile][version] = 2.x-dev
+projects[commerce_recurring][version] = 2.x-dev
 
 projects[redhen][version] = 1.7
 projects[redhen_feeds][version] = 1.0-alpha2
 projects[redhen_membership][version] = 1.0
+projects[redhen_donation][version] = 1.0-beta2
 
 projects[bundleswitcher][version] = 1.x-dev
 
-projects[mailchimp][version] = 2.10
-projects[mandrill][version] = 1.4
+projects[mailchimp][version] = 3.1
+projects[mandrill][version] = 2.0
 projects[mailsystem][version] = 2.34
+projects[mimemail][verssion] = 1.0-beta3
 
 projects[casetracker][version] = 1.0-alpha1
 projects[time_tracker][version] = 1.1
@@ -105,3 +109,15 @@ projects[invite][version] = 4.0-beta2
 projects[rpx][version] = 2.6
 projects[oauth][version] = 3.2
 projects[userpoints][version] = 1.0
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/db2a5b7264e8.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/master.zip"
+libraries[mandrill][directory_name] = "mandrill"
+
+libraries[stripe][download][type] = "get"
+libraries[stripe][download][url] = "https://github.com/stripe/stripe-php/archive/master.zip"
+libraries[stripe][directory_name] = "stripe-php"
