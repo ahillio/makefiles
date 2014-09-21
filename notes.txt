@@ -1,3 +1,8 @@
+jquery_update: should be updated from 2.3 to 2.4
+
+
+/* Below this line is probably outdated */
+
 CTOOLS patch for ROOTS panels commerce issue: https://drupal.org/files/ctools-1925018-61.patch
 
 
