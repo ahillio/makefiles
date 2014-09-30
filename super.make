@@ -6,7 +6,7 @@ core = 7.x
 api = 2
 ; Core project
 ; ------------
-projects[drupal][version] = 7
+projects[drupal][version] = 7.31
 
 ; Links to Base make file
 ; ------------------------
@@ -15,7 +15,7 @@ includes[] = ./modsandlibs.make
 projects[media][version] = 1.4
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = 1.9
+projects[commerce][version] = 1.10
 projects[commerce][subdir] = "contrib"
 projects[commerce_features][version] = 1.0-rc1
 projects[commerce_features][subdir] = "contrib"

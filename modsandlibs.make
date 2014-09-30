@@ -35,12 +35,12 @@ projects[persistent_login][version] = 1.0-beta1
 projects[entityform][version] = 2.0-beta2
 projects[entityform_block][version] = 1.0
 projects[context][version] = 3.2
-projects[date][version] = 2.9-alpha1
-// Date 2.8 might need patch from https://www.drupal.org/node/2294973#comment-9011991 if calendar titles are not right -- code from patch committed to 2.9-alpha1
+projects[date][version] = 2.9-alpha2
 projects[views][version] = 3.8
 projects[views_bulk_operations][version] = 3.1
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
+proejcts[views_timelinejs][version] = 1.x-dev
 projects[better_exposed_filters][version] = 3.0-beta4
 projects[eva][version] = 1.2
 projects[calendar][version] = 3.4
@@ -143,6 +143,16 @@ projects[simplehtmldom][version] = 1.12
 
 projects[modernizr][version] = 3.1
 
+projects[geophp][version] = 1.7
+projects[geofield][version] = 2.3
+projects[geocoder][version] = 1.2
+projects[addressfield][version] = 1.0-beta5
+projects[proj4js][version] = 1.2
+projects[openlayers][version] = 2.0-beta9
+projects[leaflet][version] = 1.1
+projects[leaflet_markercluster][version] = 1.1
+projects[leaflet_more_maps][version] = 1.9
+
 projects[google_analytics][version] = 1.4
 projects[xmlsitemap][version] = 2.0-rc2
 projects[metatag][version] = 1.0-beta9
@@ -170,11 +180,9 @@ projects[webform_salsa][download][url] = "https://github.com/Webskillet/webform_
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "https://github.com/downloads/tinymce/tinymce/tinymce_3.5.8_jquery.zip"
 libraries[tinymce][directory_name] = "tinymce"
-
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
-
 libraries[ace][download][type] = "get"
 libraries[ace][download][url] = "https://github.com/ajaxorg/ace-builds/archive/master.zip"
 libraries[ace][directory_name] = "ace"
@@ -182,14 +190,11 @@ libraries[ace][directory_name] = "ace"
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
-
 libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 libraries[flexslider][directory_name] = "flexslider"
-
 libraries[nivo-slider][download][type] = "get"
 libraries[nivo-slider][download][url] = "https://github.com/downloads/gilbitron/Nivo-Slider/nivo-slider3.1.zip"
-; libraries[nivo-slider][directory_name] = "nivo-slider"
 
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
@@ -206,3 +211,15 @@ libraries[superfish][directory_name] = "superfish"
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/master.zip"
 libraries[chosen][directory_name] = "chosen"
+
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet.markercluster][download][type] = "get"
+libraries[leaflet.markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster/archive/master.zip"
+libraries[leaflet.markercluster][directory_name] = "leaflet_markercluster"
+
+libraries[timelinejs][download][type] = "git"
+libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJS.git"
+libraries[timelinejs][directory_name] = "timeline"
+
