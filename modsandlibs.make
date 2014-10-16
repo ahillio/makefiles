@@ -1,4 +1,5 @@
 projects[admin_menu][version] = 3.0-rc4
+projects[admin_views][version] = 1.3
 projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 2.0-alpha2
 projects[advanced_help][version] = 1.0
@@ -14,8 +15,9 @@ projects[uuid][version] = 1.0-alpha5
 // projects[feeds][download][type] = "get"
 // projects[feeds][download][url] = "http://git.drupal.org/project/feeds.git"
 projects[feeds][version] = 2.x-dev
-projects[feeds_tamper][version] = 1.0-beta5
+projects[feeds_tamper][version] = 1.0
 projects[field_collection_feeds][version] = 1.0-alpha3
+projects[media_feeds][version] = 2.x-dev
 projects[migrate][version] = 2.5
 
 projects[entity_view_mode][version] = 1.0-rc1
@@ -25,10 +27,12 @@ projects[ctools][version] = 1.x-dev
 projects[libraries][version] = 2.2
 projects[token][version] = 1.5
 projects[job_scheduler][version] = 2.0-alpha3
-projects[menu_token][version] = 1.0-beta5
-projects[menu_attributes] = 1.0-rc2
 
-projects[logintoboggan][version] = 1.3
+projects[menu_token][version] = 1.0-beta5
+projects[menu_attributes][version] = 1.0-rc2
+projects[simplified_menu_admin][version] = 1.x-dev
+
+projects[logintoboggan][version] = 1.4
 projects[email_registration][version] = 1.1
 projects[persistent_login][version] = 1.0-beta1
 
@@ -37,10 +41,12 @@ projects[entityform_block][version] = 1.0
 projects[context][version] = 3.2
 projects[date][version] = 2.9-alpha2
 projects[views][version] = 3.8
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
-proejcts[views_timelinejs][version] = 1.x-dev
+projects[views_timelinejs][version] = 1.x-dev
+// Hopefully this patch gets applied!
+projects[views_timelinejs][patch][] = "https://www.drupal.org/files/issues/views_timelinejs-2120587.patch"
 projects[better_exposed_filters][version] = 3.0-beta4
 projects[eva][version] = 1.2
 projects[calendar][version] = 3.4
@@ -71,6 +77,7 @@ projects[interval][version] = 1.0-rc1
 projects[link][version] = 1.2
 projects[email][version] = 1.2
 projects[addressfield][version] = 1.0-beta4
+projects[addressfield_tokens][version] = 1.4
 projects[physical][version] = 1.x-dev
 projects[telephone][version] = 1.x-dev
 projects[field_group][version] = 1.2
@@ -92,8 +99,8 @@ projects[mediafront][version] = 2.2
 projects[media_youtube][version] = 2.0-rc3
 projects[plupload][version] = 1.6
 projects[imagecrop][version] = 1.0-rc3
-projects[colorbox][version] = 2.4
-projects[colorbox_node][version] = 2.6
+projects[colorbox][version] = 2.8
+projects[colorbox_node][version] = 3.3
 projects[flexslider][version] = 2.0-alpha3
 projects[galleria][version] = 1.0-beta3
 
@@ -103,7 +110,7 @@ projects[fontyourface][version] = 2.8
 projects[om_maximenu][version] = 1.44
 projects[superfish][version] = 1.9
 projects[draggableviews][version] = 2.0
-projects[views_accordion][version] = 1.0-rc2
+projects[views_accordion][version] = 1.0
 projects[views_slideshow][version] = 3.1
 projects[quicktabs][version] = 3.6
 projects[css_injector][version] = 1.8
@@ -153,6 +160,8 @@ projects[leaflet][version] = 1.1
 projects[leaflet_markercluster][version] = 1.1
 projects[leaflet_more_maps][version] = 1.9
 
+projects[mailchimp][version] = 3.1
+
 projects[google_analytics][version] = 1.4
 projects[xmlsitemap][version] = 2.0-rc2
 projects[metatag][version] = 1.0-beta9
@@ -173,6 +182,9 @@ projects[webform_salsa][type] = module
 projects[webform_salsa][version] = 1.1-beta
 projects[webform_salsa][download][type] = "git"
 projects[webform_salsa][download][url] = "https://github.com/Webskillet/webform_salsa.git"
+
+projects[ember][type] = theme
+projects[ember][version] = 2.x-dev
 
 ; Libraries
 ; ---------
@@ -222,4 +234,12 @@ libraries[leaflet.markercluster][directory_name] = "leaflet_markercluster"
 libraries[timelinejs][download][type] = "git"
 libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJS.git"
 libraries[timelinejs][directory_name] = "timeline"
+
+libraries[backbone][download][type] = "git"
+libraries[backbone][download][url] = https://github.com/jashkenas/backbone.git
+libraries[backbone][directory_name] = "backbone"
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/db2a5b7264e8.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
 

@@ -6,7 +6,7 @@ core = 7.x
 api = 2
 ; Core project
 ; ------------
-projects[drupal][version] = 7.31
+projects[drupal][version] = 7.32
 
 ; Links to Base make file
 ; ------------------------
@@ -93,7 +93,6 @@ projects[redhen_donation][version] = 1.0-beta2
 
 projects[bundleswitcher][version] = 1.x-dev
 
-projects[mailchimp][version] = 3.1
 projects[mandrill][version] = 2.0
 projects[mailsystem][version] = 2.34
 projects[mimemail][verssion] = 1.0-beta3
@@ -110,9 +109,6 @@ projects[rpx][version] = 2.6
 projects[oauth][version] = 3.2
 projects[userpoints][version] = 1.0
 
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/db2a5b7264e8.zip"
-libraries[mailchimp][directory_name] = "mailchimp"
 
 libraries[mandrill][download][type] = "get"
 libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/master.zip"
