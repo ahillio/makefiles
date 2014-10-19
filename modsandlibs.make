@@ -96,6 +96,7 @@ projects[breakpoints][version] = 1.1
 projects[remote_stream_wrapper][version] = 1.0-beta4
 projects[emfield][version] = 1.0-alpha2
 projects[mediafront][version] = 2.2
+projects[media_vimeo][version] = 2.0
 projects[media_youtube][version] = 2.0-rc3
 projects[plupload][version] = 1.6
 projects[imagecrop][version] = 1.0-rc3
