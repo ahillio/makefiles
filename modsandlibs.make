@@ -4,6 +4,9 @@ projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 2.0-alpha2
 projects[advanced_help][version] = 1.0
 
+projects[i18n][version] = 1.11
+projects[variable][version] = 2.5
+
 projects[features][version] = 2.2
 projects[uuid_features][version] = 1.0-alpha4
 projects[features_extra][version] = 1.0-beta1
@@ -46,7 +49,9 @@ projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
 projects[views_timelinejs][version] = 1.x-dev
 // Hopefully this patch gets applied!
-projects[views_timelinejs][patch][] = "https://www.drupal.org/files/issues/views_timelinejs-2120587.patch"
+// It does NOT
+// Perhaps because the patch number is not included?  Let's try that...
+projects[views_timelinejs][patch][2120587] = "https://www.drupal.org/files/issues/views_timelinejs-2120587.patch"
 projects[better_exposed_filters][version] = 3.0-beta4
 projects[eva][version] = 1.2
 projects[calendar][version] = 3.4
