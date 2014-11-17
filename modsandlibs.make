@@ -3,6 +3,7 @@ projects[admin_views][version] = 1.3
 projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 2.0-alpha2
 projects[advanced_help][version] = 1.0
+projects[navbar][version] = 1.4
 
 projects[i18n][version] = 1.11
 projects[variable][version] = 2.5
@@ -23,7 +24,9 @@ projects[field_collection_feeds][version] = 1.0-alpha3
 projects[media_feeds][version] = 2.x-dev
 projects[migrate][version] = 2.5
 
+projects[ds][version] = 2.7
 projects[entity_view_mode][version] = 1.0-rc1
+projects[taxonomy_display][version] = 1.1
 projects[diff][version] = 3.2
 projects[entity][version] = 1.5
 projects[ctools][version] = 1.x-dev
@@ -90,6 +93,7 @@ projects[field_collection][version] = 1.0-beta5
 projects[chosen][version] = 2.0-beta4
 projects[options_element][version] = 1.12
 projects[conditional_fields][version] = 3.0-alpha1
+projects[bundleswitcher][version] = 1.0-beta1
 
 projects[imce][version] = 1.9
 projects[imce_mkdir][version] = 1.0
@@ -104,11 +108,14 @@ projects[mediafront][version] = 2.2
 projects[media_vimeo][version] = 2.0
 projects[media_youtube][version] = 2.0-rc3
 projects[plupload][version] = 1.6
+// include https://www.drupal.org/node/1903850
 projects[imagecrop][version] = 1.0-rc3
 projects[colorbox][version] = 2.8
 projects[colorbox_node][version] = 3.3
 projects[flexslider][version] = 2.0-alpha3
 projects[galleria][version] = 1.0-beta3
+projects[field_slideshow] = 1.82
+projects[jplayer][version] = 2.0-beta1
 
 projects[backstretch][version] = 2.x-dev
 projects[fontyourface][version] = 2.8
@@ -194,7 +201,7 @@ projects[ember][version] = 2.x-dev
 
 ; Libraries
 ; ---------
-; TinyMCE
+; wysiwyg
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "https://github.com/downloads/tinymce/tinymce/tinymce_3.5.8_jquery.zip"
 libraries[tinymce][directory_name] = "tinymce"
@@ -205,6 +212,7 @@ libraries[ace][download][type] = "get"
 libraries[ace][download][url] = "https://github.com/ajaxorg/ace-builds/archive/master.zip"
 libraries[ace][directory_name] = "ace"
 
+; sliders
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
@@ -213,6 +221,11 @@ libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/
 libraries[flexslider][directory_name] = "flexslider"
 libraries[nivo-slider][download][type] = "get"
 libraries[nivo-slider][download][url] = "https://github.com/downloads/gilbitron/Nivo-Slider/nivo-slider3.1.zip"
+libraries[jcarousel][download][type] = "git"
+libraries[jcarousel][download][url] = "https://github.com/jsor/jcarousel.git"
+
+libraries[jplayer][download][type] = "git"
+libraries[jplayer][download][url] = "https://github.com/happyworm/jPlayer.git"
 
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
@@ -242,7 +255,7 @@ libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJ
 libraries[timelinejs][directory_name] = "timeline"
 
 libraries[backbone][download][type] = "git"
-libraries[backbone][download][url] = https://github.com/jashkenas/backbone.git
+libraries[backbone][download][url] = "https://github.com/jashkenas/backbone.git"
 libraries[backbone][directory_name] = "backbone"
 
 libraries[mailchimp][download][type] = "get"
