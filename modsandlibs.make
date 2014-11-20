@@ -135,6 +135,7 @@ projects[wysiwyg][version] = 2.2
 projects[wysiwyg_button_order][version] = 1.0-rc1
 projects[ckeditor_styles][version] = 1.0-alpha1
 projects[linkit][version] = 3.1
+projects[linkit_views][version] = 1.2
 projects[ckeditor][version] = 1.14
 projects[ckeditor_link][version] = 2.3
 projects[ace_editor][version] = 1.1
