@@ -6,7 +6,7 @@ core = 7.x
 api = 2
 ; Core project
 ; ------------
-projects[drupal][version] = 7.32
+projects[drupal][version] = 7.34
 
 ; Links to Base make file
 ; ------------------------
