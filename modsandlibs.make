@@ -259,6 +259,10 @@ libraries[backbone][download][type] = "git"
 libraries[backbone][download][url] = "https://github.com/jashkenas/backbone.git"
 libraries[backbone][directory_name] = "backbone"
 
+libraries[underscore][download][type] = "git"
+libraries[underscore][download][url] = "https://github.com/jashkenas/underscore.git"
+libraries[underscore][directory_name] = "underscore"
+
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/db2a5b7264e8.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
