@@ -72,7 +72,7 @@ projects[afb][version] = 1.0
 projects[nodequeue][version] = 2.0-beta1
 projects[block_titlelink][version] = 1.3
 
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 projects[webform_ajax][version] = 1.1
 projects[webform_rules][version] = 1.6
 projects[webform_conditional][version] = 1.0-beta2
