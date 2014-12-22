@@ -55,6 +55,7 @@ projects[views_timelinejs][version] = 1.x-dev
 // It does NOT
 // Perhaps because the patch number is not included?  Let's try that...
 projects[views_timelinejs][patch][2120587] = "https://www.drupal.org/files/issues/views_timelinejs-2120587.patch"
+// I believe it still did not apply
 projects[better_exposed_filters][version] = 3.0-beta4
 projects[eva][version] = 1.2
 projects[calendar][version] = 3.4
@@ -169,7 +170,7 @@ projects[geofield][version] = 2.3
 projects[geocoder][version] = 1.2
 projects[addressfield][version] = 1.0-beta5
 projects[proj4js][version] = 1.2
-projects[openlayers][version] = 2.0-beta9
+; projects[openlayers][version] = 2.0-beta9
 projects[leaflet][version] = 1.1
 projects[leaflet_markercluster][version] = 1.1
 projects[leaflet_more_maps][version] = 1.9
