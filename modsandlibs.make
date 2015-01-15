@@ -42,6 +42,7 @@ projects[logintoboggan][version] = 1.4
 projects[email_registration][version] = 1.1
 projects[persistent_login][version] = 1.0-beta1
 
+projects[bean][version] = 1.8
 projects[entityform][version] = 2.0-beta2
 projects[entityform_block][version] = 1.0
 projects[context][version] = 3.2
@@ -130,6 +131,7 @@ projects[quicktabs][version] = 3.6
 projects[css_injector][version] = 1.8
 projects[jquery_update][version] = 2.3
 
+projects[addanother][version] = 2.2
 projects[save_draft][version] = 1.4
 projects[exclude_node_title][version] = 1.6
 projects[wysiwyg][version] = 2.2
