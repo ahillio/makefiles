@@ -82,6 +82,7 @@ projects[webform_template][version] = 1.2
 
 projects[entityreference][version] = 1.x-dev
 projects[entityreference_prepopulate][version] = 1.4
+projects[inline_entity_form][version] = 1.5
 projects[select_or_other] = 2.2
 projects[interval][version] = 1.0-rc1
 projects[link][version] = 1.2

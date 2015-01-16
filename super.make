@@ -64,7 +64,6 @@ projects[commerce_autosku][version] = 1.x-dev
 projects[commerce_autosku][subdir] = "contrib"
 projects[commerce_message][subdir] = "contrib"
 projects[commerce_message][version] = 1.0-beta1
-projects[inline_entity_form][version] = 1.5
 projects[inline_conditions][version] = 1.0-alpha4
 projects[views_megarow][version] = 1.4
 projects[commerce_rules_extra][version] = 2.1
