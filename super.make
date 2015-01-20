@@ -23,8 +23,8 @@ projects[commerce_migrate][version] = 1.1
 projects[commerce_migrate][subdir] = "contrib"
 
 projects[commerce_addressbook][version] = 2.0-rc8
-; projects[commerce_addressbook][version] = 2.0-rc4
 projects[commerce_addressbook][subdir] = "contrib"
+; projects[commerce_addressbook][version] = 2.0-rc4
 ; projects[commerce_addressbook][patch][] = "http://drupal.org/files/commerce_addressbook-fix-set-as-default-address-1951056-4.patch"
 projects[commerce_shipping][version] = 2.1
 projects[commerce_shipping][subdir] = "contrib"
@@ -33,6 +33,9 @@ projects[commerce_flat_rate][subdir] = "contrib"
 projects[commerce_ups][version] = "2.0"
 projects[commerce_fedex][version] = "1.x-dev"
 projects[commerce_usps][version] = "2.x-dev"
+
+projects[commerce_stock][version] = 2.1
+projects[commerce_decimal_quantities] = 1.0
 
 projects[commerce_checkout_progress][version] = 1.3
 projects[commerce_checkout_progress][subdir] = "contrib"
@@ -48,6 +51,7 @@ projects[commerce_hosted_pci][subdir] = "contrib"
 
 projects[commerce_discount][version] = 1.x-dev
 projects[commerce_discount][subdir] = "contrib"
+projects[commerce_coupon][version] = 2.x-dev
 projects[commerce_cheque][version] = 1.0
 projects[commerce_payleap][version] = 1.1
 projects[commerce_payleap][subdir] = "contrib"
@@ -68,6 +72,7 @@ projects[inline_conditions][version] = 1.0-alpha4
 projects[views_megarow][version] = 1.4
 projects[commerce_rules_extra][version] = 2.1
 
+projects[commerce_attributes_date][version] = 1.0
 projects[commerce_extra_price_formatters][version] = 1.x-dev
 projects[commerce_extra_price_formatters][subdir] = "contrib"
 projects[commerce_fancy_attributes][version] = 1.0
