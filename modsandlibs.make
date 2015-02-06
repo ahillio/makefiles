@@ -80,6 +80,8 @@ projects[webform_rules][version] = 1.6
 projects[webform_conditional][version] = 1.0-beta2
 projects[webform_template][version] = 1.2
 
+projects[field_formatter_class][version] = 1.1
+projects[field_formatter_settings][version] = 1.1
 projects[entityreference][version] = 1.x-dev
 projects[entityreference_prepopulate][version] = 1.4
 projects[inline_entity_form][version] = 1.5
@@ -203,6 +205,8 @@ projects[webform_salsa][download][url] = "https://github.com/Webskillet/webform_
 
 projects[ember][type] = theme
 projects[ember][version] = 2.x-dev
+projects[responsive_bartik][type] = theme
+projects[responsive_bartik][version] = 1.0
 
 ; Libraries
 ; ---------
