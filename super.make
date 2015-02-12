@@ -97,8 +97,8 @@ projects[redhen_membership][version] = 1.x-dev
 projects[redhen_donation][version] = 1.1
 projects[redhen_campaign][version] = 1.1
 
-
-projects[bundleswitcher][version] = 1.x-dev
+projects[relation][version] = 1.0-rc6
+projects[relation_add][version] = 1.4
 
 projects[mandrill][version] = 2.0
 projects[mailsystem][version] = 2.34

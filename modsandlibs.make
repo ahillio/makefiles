@@ -69,7 +69,6 @@ projects[message_notify][version] = 2.4
 projects[message_subscribe][version] = 1.x-dev
 projects[message_ui][version] = 1.4
 projects[registration][version] = 1.3
-projects[relation][version] = 1.0-rc4
 projects[afb][version] = 1.0
 projects[nodequeue][version] = 2.0-beta1
 projects[block_titlelink][version] = 1.3
@@ -249,7 +248,8 @@ libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-fo
 libraries[superfish][directory_name] = "superfish"
 
 libraries[chosen][download][type] = "get"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/master.zip"
+; libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/master.zip"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.3.0/chosen_v1.3.0.zip"
 libraries[chosen][directory_name] = "chosen"
 
 libraries[leaflet][download][type] = "get"
