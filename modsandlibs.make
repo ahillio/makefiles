@@ -47,7 +47,7 @@ projects[entityform][version] = 2.0-beta2
 projects[entityform_block][version] = 1.0
 projects[context][version] = 3.2
 projects[date][version] = 2.9-alpha2
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 projects[views_bulk_operations][version] = 3.2
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
@@ -206,6 +206,10 @@ projects[ember][type] = theme
 projects[ember][version] = 2.x-dev
 projects[responsive_bartik][type] = theme
 projects[responsive_bartik][version] = 1.0
+projects[webskillet15][type] = theme
+projects[webskillet15][version] = 1.0-alpha1
+projects[webskillet15][download][type] = "git"
+projects[webskillet15][download][url] = "https://github.com/Webskillet/webskillet15.git"
 
 ; Libraries
 ; ---------

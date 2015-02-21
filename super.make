@@ -21,6 +21,7 @@ projects[commerce_features][version] = 1.0
 projects[commerce_features][subdir] = "contrib"
 projects[commerce_migrate][version] = 1.1
 projects[commerce_migrate][subdir] = "contrib"
+projects[commerce_feeds][version] = 1.3
 
 projects[commerce_addressbook][version] = 2.0-rc8
 projects[commerce_addressbook][subdir] = "contrib"
