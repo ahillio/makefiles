@@ -4,6 +4,7 @@ projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 2.0-alpha2
 projects[advanced_help][version] = 1.0
 projects[navbar][version] = 1.4
+projects[coffee][version] = 2.2
 
 projects[i18n][version] = 1.11
 projects[variable][version] = 2.5
@@ -28,7 +29,7 @@ projects[ds][version] = 2.7
 projects[entity_view_mode][version] = 1.0-rc1
 projects[taxonomy_display][version] = 1.1
 projects[diff][version] = 3.2
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 projects[ctools][version] = 1.x-dev
 projects[libraries][version] = 2.2
 projects[token][version] = 1.5
@@ -176,6 +177,7 @@ projects[addressfield][version] = 1.0-beta5
 projects[proj4js][version] = 1.2
 ; projects[openlayers][version] = 2.0-beta9
 projects[leaflet][version] = 1.1
+; requires https://www.drupal.org/files/issues/leaflet-tooltip_does_not_strip_markup-2169197-1.patch
 projects[leaflet_markercluster][version] = 1.1
 projects[leaflet_more_maps][version] = 1.9
 
@@ -201,6 +203,8 @@ projects[webform_salsa][type] = module
 projects[webform_salsa][version] = 1.1-beta
 projects[webform_salsa][download][type] = "git"
 projects[webform_salsa][download][url] = "https://github.com/Webskillet/webform_salsa.git"
+
+projects[ember_support][version] = 1.0-alpha4
 
 projects[ember][type] = theme
 projects[ember][version] = 2.x-dev

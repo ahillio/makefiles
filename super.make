@@ -60,7 +60,7 @@ projects[commerce_paypal][subdir] = "contrib"
 projects[commerce_paypal][version] = 2.3
 projects[commerce_stripe][version] = 1.x-dev
 projects[commerce_cop][version] = 1.0-beta2
-projects[commerce_invoice_receipt][version] = 1.0
+projects[commerce_billy][version] = 1.0-beta2
 
 projects[commerce_backoffice][subdir] = "contrib"
 projects[commerce_backoffice][version] = 1.4
