@@ -21,6 +21,7 @@ projects[uuid][version] = 1.0-alpha5
 // projects[feeds][download][url] = "http://git.drupal.org/project/feeds.git"
 projects[feeds][version] = 2.x-dev
 projects[feeds_tamper][version] = 1.0
+projects[feeds_ex][version] = 1.x-dev
 projects[field_collection_feeds][version] = 1.0-alpha3
 projects[media_feeds][version] = 2.x-dev
 projects[migrate][version] = 2.5
