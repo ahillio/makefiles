@@ -91,12 +91,13 @@ projects[commerce_order_reference][version] = 1.0-alpha1
 projects[commerce_cardonfile][version] = 2.x-dev
 projects[commerce_recurring][version] = 2.x-dev
 
-projects[commerce_redhen][version] 1.0
 projects[redhen][version] = 1.9
 projects[redhen_feeds][version] = 1.x-dev
+projects[redhen_mailchimp][version] = 1.x-dev
 projects[redhen_membership][version] = 1.x-dev
 projects[redhen_donation][version] = 1.1
 projects[redhen_campaign][version] = 1.1
+projects[commerce_redhen][version] 1.0
 
 projects[relation][version] = 1.0-rc6
 projects[relation_add][version] = 1.4
