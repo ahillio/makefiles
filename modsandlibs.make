@@ -31,7 +31,7 @@ projects[entity_view_mode][version] = 1.0-rc1
 projects[taxonomy_display][version] = 1.1
 projects[diff][version] = 3.2
 projects[entity][version] = 1.6
-projects[ctools][version] = 1.x-dev
+projects[ctools][version] = 1.7
 projects[libraries][version] = 2.2
 projects[token][version] = 1.5
 projects[job_scheduler][version] = 2.0-alpha3
@@ -54,6 +54,8 @@ projects[views_bulk_operations][version] = 3.2
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
 projects[views_timelinejs][version] = 1.x-dev
+projects[views_timelinejs][download][type] = "git"
+projects[views_timelinejs][download][url] = "git://github.com/ahillio/views_timelinejs.git"
 // Hopefully this patch gets applied!
 // It does NOT
 // Perhaps because the patch number is not included?  Let's try that...
@@ -64,7 +66,7 @@ projects[eva][version] = 1.2
 projects[calendar][version] = 3.4
 projects[flag][version] = 2.1
 projects[panels][version] = 3.3
-projects[rules][version] = 2.6
+projects[rules][version] = 2.9
 projects[workflow][version] = 2.0-beta4
 projects[message][version] = 1.7
 projects[message_notify][version] = 2.4
@@ -141,9 +143,9 @@ projects[exclude_node_title][version] = 1.6
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg_button_order][version] = 1.0-rc1
 projects[ckeditor_styles][version] = 1.0-alpha1
-projects[linkit][version] = 3.1
+projects[linkit][version] = 3.3
 projects[linkit_views][version] = 1.2
-projects[ckeditor][version] = 1.14
+projects[ckeditor][version] = 1.16
 projects[ckeditor_link][version] = 2.3
 projects[ace_editor][version] = 1.1
 
@@ -178,7 +180,8 @@ projects[addressfield][version] = 1.0-beta5
 projects[proj4js][version] = 1.2
 ; projects[openlayers][version] = 2.0-beta9
 projects[leaflet][version] = 1.1
-; requires https://www.drupal.org/files/issues/leaflet-tooltip_does_not_strip_markup-2169197-1.patch
+projects[leaflet][download][type] = "git"
+projects[leaflet][download][url] = "git://github.com/ahillio/leaflet.git"
 projects[leaflet_markercluster][version] = 1.1
 projects[leaflet_more_maps][version] = 1.9
 
