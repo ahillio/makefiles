@@ -22,6 +22,8 @@ Nothing urgent now :)
 
 ## Misc
 
+Should add block_class module!
+
 Patched and stored on github as of 18mar2015:
  - media
  - views_timelinejs
