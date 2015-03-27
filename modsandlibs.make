@@ -123,7 +123,7 @@ projects[colorbox_node][version] = 3.3
 projects[flexslider][version] = 2.0-alpha3
 projects[galleria][version] = 1.0-beta3
 projects[field_slideshow] = 1.82
-projects[jplayer][version] = 2.0-beta1
+projects[jplayer][version] = 2.x-dev
 
 projects[backstretch][version] = 2.x-dev
 projects[fontyourface][version] = 2.8
