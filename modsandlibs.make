@@ -1,8 +1,10 @@
 projects[admin_menu][version] = 3.0-rc4
+projects[adminimal_admin_menu][version] = 1.5
 projects[admin_views][version] = 1.3
 projects[filter_perms][version] = 1.0
 projects[module_filter][version] = 2.0-alpha2
 projects[advanced_help][version] = 1.0
+projects[field_tools][version] = 1.0-alpha8
 projects[navbar][version] = 1.4
 projects[coffee][version] = 2.2
 
@@ -210,6 +212,8 @@ projects[webform_salsa][download][url] = "https://github.com/Webskillet/webform_
 
 projects[ember_support][version] = 1.0-alpha4
 
+projects[adminimal_theme][type] = theme
+projects[adminimal_theme[version] = 1.21
 projects[ember][type] = theme
 projects[ember][version] = 2.x-dev
 projects[responsive_bartik][type] = theme
