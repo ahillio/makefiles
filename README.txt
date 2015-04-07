@@ -20,10 +20,14 @@ Nothing urgent now :)
 
 ******
 
+commerce and commerce_attributes_date both need to be patched
+
 ## Misc
 
+Should add block_class module!
+
 Patched and stored on github as of 18mar2015:
- - media
+ - media -- 2.x-dev right?  for plupload on fields?
  - views_timelinejs
  - leaflet 
 
