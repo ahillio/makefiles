@@ -47,7 +47,7 @@ projects[persistent_login][version] = 1.0-beta1
 projects[bean][version] = 1.8
 projects[entityform][version] = 2.0-beta2
 projects[entityform_block][version] = 1.0
-projects[context][version] = 3.2
+projects[context][version] = 3.6
 projects[date][version] = 2.9-alpha2
 projects[views][version] = 3.10
 projects[views_bulk_operations][version] = 3.2
@@ -194,6 +194,7 @@ projects[pathauto][version] = 1.2
 projects[globalredirect][version] = 1.5
 projects[extlink][version] = 1.13
 projects[redirect][version] = 1.0-rc1
+projects[rabbit_hole][version] = 2.23
 projects[search404][version] = 1.3
 projects[checklistapi][version] = 1.1
 projects[seo_checklist][version] = 4.1
@@ -233,8 +234,9 @@ libraries[ace][download][url] = "https://github.com/ajaxorg/ace-builds/archive/m
 libraries[ace][directory_name] = "ace"
 
 ; sliders
-libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip"
+libraries[jquery.cycle][download][type] = "git"
+; libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/archive/master.zip"
+libraries[jquery.cycle][download][url] = "https://github.com/ahillio/jquery.cycle.git"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
@@ -248,7 +250,8 @@ libraries[jplayer][download][type] = "git"
 libraries[jplayer][download][url] = "https://github.com/happyworm/jPlayer.git"
 
 libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
+libraries[plupload][download][url] = "https://github.com/ahillio/plupload_library.git"
+; originally from https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][directory_name] = "plupload"
 
 libraries[colorbox][download][type] = "get"
