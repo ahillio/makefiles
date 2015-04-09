@@ -190,6 +190,7 @@ projects[leaflet_more_maps][version] = 1.9
 projects[mailchimp][version] = 3.1
 
 projects[google_analytics][version] = 1.4
+projects[google_adwords][version] = 2.0
 projects[xmlsitemap][version] = 2.0-rc2
 projects[metatag][version] = 1.0-beta9
 projects[pathauto][version] = 1.2
