@@ -22,31 +22,22 @@ Nothing urgent now :)
 
 commerce and commerce_attributes_date both need to be patched
 
-## Misc
+## To Do
 
-Should add block_class module!
+- Add block_class module
+- Analytics dashboard with google_analytics_reports (which needs to be updated to use charts module instead of deprecated chart)
+- Fix admin_feature for adminimal menu and remove media_browser_plus
+- jquery_update: should be updated from 2.3 to 2.4
+
+
+## Misc
 
 Patched and stored on github as of 18mar2015:
  - media -- 2.x-dev right?  for plupload on fields?
  - views_timelinejs
  - leaflet 
 
-jquery_update: should be updated from 2.3 to 2.4
 
 
-******
-MEDIA
-media_internet and media_youtube are both on 2.x . . .  is that bad?  should prob be 1.x
 
 
-******
-REDHEN
-
-Autocomplete limited to first 10 entries https://drupal.org/node/2085279
-https://drupal.org/files/2085279-entityreference_autocomplete.patch
-
-To work with Inline Entity Forms https://drupal.org/node/1854940
-https://drupal.org/files/1854940-inline-entity-form-10.patch
-
-Reversed label not shown https://drupal.org/node/2036515
-https://drupal.org/files/redhen_relation-reversed-label-not-shown-2036515-1.patch
