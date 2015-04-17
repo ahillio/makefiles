@@ -4,9 +4,11 @@
 api = 2
 core = 7.x
 
-projects[drupal][type] = "core"
-projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.gz"
+includes[] = ./core.make
+
+; projects[drupal][type] = "core"
+; projects[drupal][download][type] = "get"
+; projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.gz"
 
 projects[civicrm][type] = "module"
 projects[civicrm][directory_name] = "civicrm"
@@ -21,6 +23,8 @@ projects[civicrml10n][download][url] = "http://sourceforge.net/projects/civicrm/
 includes[] = ./modsandlibs.make
 
 projects[media][version] = 2.x-dev
+projects[media][download][type] = git
+projects[media][download][url] = "https://github.com/ahillio/media.git"
 projects[file_entity][version] = 2.x-dev
 projects[multiform][version] = 1.1
 projects[views_tree][version] = 2.0

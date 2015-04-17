@@ -6,10 +6,11 @@ core = 7.x
 api = 2
 ; Core project
 ; ------------
-projects[drupal][version] = 7.36
+; projects[drupal][version] = 7.36
 
 ; Links to Base make file
 ; ------------------------
+includes[] = ./core.make
 includes[] = ./modsandlibs.make
 
 
