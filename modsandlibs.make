@@ -126,6 +126,7 @@ projects[flexslider][version] = 2.0-alpha3
 projects[galleria][version] = 1.0-beta3
 projects[field_slideshow] = 1.82
 projects[jplayer][version] = 2.x-dev
+projects[imagecache_actions] = 1.5
 
 projects[backstretch][version] = 2.x-dev
 projects[fontyourface][version] = 2.8

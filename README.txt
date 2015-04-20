@@ -41,6 +41,9 @@ commerce and commerce_attributes_date both need to be patched
   - views_bootstrap
   - ds_bootstrap_layouts
   - Add block_class module
+- ux module niceness
+  - r4032login
+  - prlp or simple_pass_reset
 - functionality
   - Analytics dashboard with google_analytics_reports (which needs to be updated to use charts module instead of deprecated chart)
 - tasks
