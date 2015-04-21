@@ -78,6 +78,7 @@ projects[registration][version] = 1.3
 projects[afb][version] = 1.0
 projects[nodequeue][version] = 2.0-beta1
 projects[block_titlelink][version] = 1.3
+projects[block_class][version] = 2.1
 
 projects[webform][version] = 3.21
 projects[webform_ajax][version] = 1.1
