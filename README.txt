@@ -36,6 +36,7 @@ commerce and commerce_attributes_date both need to be patched
 
 - 
 - admin modules:
+  - admin_menu_source
   - ore views_maintenance
 - site-building modules:
   - views_bootstrap
