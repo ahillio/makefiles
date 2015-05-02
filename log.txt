@@ -1,0 +1,57 @@
+b48a1c2 (HEAD, master) update to views-3.11 and mailchimp-3.3
+1b87967 (origin/master) noted new admin module
+0414190 added auto_entitylabel
+815d922 update field_group to 1.4
+da5703c notes
+885dffe added block_class
+c1088ca added imagecache_actions
+412084c Build 7.36.1
+cd9470f notes in readme
+76b6fea notes
+a4beefa added google_adwords
+3ff6fcb Merge branch 'master' of github.com:ahillio/makefiles
+9b5582e add rabbit_hole, set libs and mods to download from github
+3f8f63f notes
+ce86ab8 Added field_tools and adminimal_admin_menu & theme.
+da2ffd0 use jplayer-2.x-dev
+ac072ba Notes
+10f5991 Build 7.35.1 Added civicrm makefile.  Migrating standard-1.x sites to standard-2.x. Misc module updates.
+25326e0 Added redhen_mailchimp.
+f8c4245 Added feeds_ex-1.x-dev
+6b96f33 README.txt, misc versions updates, added ember_support.
+9c45299 update views, add mods to super, add webskillet15
+07c1b9d Misc updates and shuffles between mods/super
+831baa9 Added new redhen modules, updated redhen and other modules
+ae77f38 Added coupon, stock and other commerce modules.
+9362bfd Move inline_entity_from from super to standard
+cd7cf34 Add bean and addanother modules, update logintoboggan
+b807f70 Updated modules versions in super.make
+5194ab7 Removed OpenLayers project.
+0c90a3a update to webform 3.21
+552aca0 Added underscore library
+f687614 Added linkit_views
+f3705a8 Update all makes to D-7.34
+3033ba0 Added DS and Taxonomy_Display
+873a3c1 Edited timelinejs patch.  Added i18n and Variable.
+6929d68 Added media_vimeo.
+09924b2 Core 7.32 and other updates.
+fa10531 Specified Drupal version 7.31
+19d4313 Added notes to notes.txt
+ef7ade9 Updates and media 1+2 specific standard make files.
+2571659 Some seo module, message_ui, others, and updates.
+324076b Cloned from github.  Deleted redundant and old directories.
+3233460 update Redhen to 1.7 and Registration to 1.3
+a30078f Changed feeds to dev and changed the source address (which breaks it) maybe something else...
+a4a8a32 fix typos in content access and entityreference prepop
+64bafd1 updated to feeds_2.x-dev with address, other things too, been a while since last commit.
+06b59a9 Casetracker to 1.0-alpha1
+3b6b817 Changed casetracker to 1.x-dev
+b1804d9 Fixed version for field_collection_deploy
+f5fbad3 Added om_maximenu and others to modsandlibs.make
+3134cc7 Fixed jquery.cycle url and add flexslider library in modsandlibs.make
+f59433d Added advanced_help
+9a68f08 Added entity_view_mode
+6696fda Added email field.
+91336c6 Added modules: field_collection_deploy, uuid, node_export, diff, breakpoints, and picture.
+2963dfd moved files to out of redundant directory
+d2f1f79 Initial commit
