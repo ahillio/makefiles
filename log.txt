@@ -1,4 +1,6 @@
-a6f9f07 (HEAD, origin/master, master) get field_group-7.x-1.x-dev from github
+a52971a (HEAD, origin/master, master) get rid of /contrib directory
+f163c08 get commerce and commerce_attributes_date from github
+a6f9f07 get field_group-7.x-1.x-dev from github
 2b86174 Build 7.36.2
 8cb6763 separated docs into individual files
 9e9aaa6 change get to git to download plupload from github
