@@ -51,7 +51,7 @@ projects[entityform][version] = 2.0-beta2
 projects[entityform_block][version] = 1.0
 projects[context][version] = 3.6
 projects[date][version] = 2.9-alpha2
-projects[views][version] = 3.10
+projects[views][version] = 3.11
 projects[views_bulk_operations][version] = 3.2
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
@@ -190,7 +190,7 @@ projects[leaflet][download][url] = "git://github.com/ahillio/leaflet.git"
 projects[leaflet_markercluster][version] = 1.1
 projects[leaflet_more_maps][version] = 1.9
 
-projects[mailchimp][version] = 3.1
+projects[mailchimp][version] = 3.3
 
 projects[google_analytics][version] = 1.4
 projects[google_adwords][version] = 2.0
