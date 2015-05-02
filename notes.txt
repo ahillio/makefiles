@@ -1,0 +1,34 @@
+# Version 7.36.2
+Security updates for views and mailchimp
+
+# Version 7.36.1
+media module breaks 7.35.1 (for one site)
+
+7.x-2.0-alpha4+27-dev breaks ckeditor with undefined function.
+This seemingly only happens on one site, I don't know why just one.
+Media module should be downloaded from github/ahillio.
+Last build happened prior to putting modules on github. 
+
+
+*****
+
+
+commerce and commerce_attributes_date both need to be patched
+
+
+*****
+
+
+
+
+# Misc Notes
+
+Patched and stored on github as of 18mar2015:
+ - media -- 2.x-dev right?  for plupload on fields?
+ - views_timelinejs
+ - leaflet 
+
+
+
+
+

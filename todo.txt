@@ -1,0 +1,19 @@
+# To Do
+
+- 
+- admin modules:
+  - admin_menu_source
+  - ore views_maintenance
+- site-building modules:
+  - views_bootstrap
+  - ds_bootstrap_layouts
+  - context_entity_field
+- ux module niceness
+  - r4032login
+  - prlp or simple_pass_reset
+  - super_login
+- functionality
+  - Analytics dashboard with google_analytics_reports (which needs to be updated to use charts module instead of deprecated chart)
+- tasks
+  - Fix admin_feature for adminimal menu and remove media_browser_plus
+  - jquery_update: should be updated from 2.3 to 2.4
