@@ -16,7 +16,9 @@ includes[] = ./modsandlibs.make
 projects[media][version] = 1.4
 
 ; Drupal Commerce and Commerce contribs.
-projects[commerce][version] = 1.10
+projects[commerce][version] = 1.11
+projects[commerce][download][type] = "git"
+projects[commerce][download][url] = "git@github.com:ahillio/commerce.git"
 projects[commerce][subdir] = "contrib"
 projects[commerce_features][version] = 1.0
 projects[commerce_features][subdir] = "contrib"
@@ -75,6 +77,8 @@ projects[views_megarow][version] = 1.4
 projects[commerce_rules_extra][version] = 2.1
 
 projects[commerce_attributes_date][version] = 1.0
+projects[commerce_attributes_date][download][type] = "git"
+projects[commerce_attributes_date][download][url] = "git@github.com:ahillio/commerce_attributes_date.git"
 projects[commerce_extra_price_formatters][version] = 1.x-dev
 projects[commerce_extra_price_formatters][subdir] = "contrib"
 projects[commerce_fancy_attributes][version] = 1.0

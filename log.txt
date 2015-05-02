@@ -1,8 +1,10 @@
-8cb6763 (HEAD, master) separated docs into individual files
+a6f9f07 (HEAD, origin/master, master) get field_group-7.x-1.x-dev from github
+2b86174 Build 7.36.2
+8cb6763 separated docs into individual files
 9e9aaa6 change get to git to download plupload from github
 11c630a added log.txt
 b48a1c2 update to views-3.11 and mailchimp-3.3
-1b87967 (origin/master) noted new admin module
+1b87967 noted new admin module
 0414190 added auto_entitylabel
 815d922 update field_group to 1.4
 da5703c notes
