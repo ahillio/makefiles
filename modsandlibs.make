@@ -257,7 +257,7 @@ libraries[jcarousel][download][url] = "https://github.com/jsor/jcarousel.git"
 libraries[jplayer][download][type] = "git"
 libraries[jplayer][download][url] = "https://github.com/happyworm/jPlayer.git"
 
-libraries[plupload][download][type] = "get"
+libraries[plupload][download][type] = "git"
 libraries[plupload][download][url] = "https://github.com/ahillio/plupload_library.git"
 ; originally from https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][directory_name] = "plupload"
