@@ -85,6 +85,8 @@ projects[redhen_campaign][version] = 1.1
 projects[commerce_redhen][version] = 1.0
 
 projects[relation][version] = 1.0-rc7
+projects[relation][download][type] = "git"
+projects[relation][download][url] = "git@github.com:ahillio/relation.git"
 projects[relation_add][version] = 1.4
 
 projects[mandrill][version] = 2.0
