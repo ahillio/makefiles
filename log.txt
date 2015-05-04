@@ -1,4 +1,8 @@
-a52971a (HEAD, origin/master, master) get rid of /contrib directory
+9a2b2b2 (HEAD, master) put back contrib subdir
+740a183 (origin/master) get patched relation-rc7 from github
+f369c9e relation should download successfully now & updated to rc7
+244a789 Build 7.36.2 ....for real this time
+a52971a get rid of /contrib directory
 f163c08 get commerce and commerce_attributes_date from github
 a6f9f07 get field_group-7.x-1.x-dev from github
 2b86174 Build 7.36.2

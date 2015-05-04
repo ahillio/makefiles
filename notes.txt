@@ -1,3 +1,8 @@
+# Version 7.36.2a
+Super platform sites were breaking - roots could not add products to cart
+(created orders but orders had no line items) and ppm was wsod.  Hopefully
+putting back contrib subdir fixes problem.
+
 # Version 7.36.2
 Security updates for views and mailchimp
 
