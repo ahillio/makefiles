@@ -5,6 +5,7 @@
   - admin_menu_source
   - ore views_maintenance
 - site-building modules:
+  - mmenu
   - views_bootstrap
   - ds_bootstrap_layouts
   - context_entity_field
