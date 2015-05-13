@@ -1,6 +1,6 @@
 # To Do
 
-- 
+## Standard 
 - admin modules:
   - admin_menu_source
   - ore views_maintenance
@@ -16,4 +16,10 @@
   - Analytics dashboard with google_analytics_reports (which needs to be updated to use charts module instead of deprecated chart)
 - tasks
   - Fix admin_feature for adminimal menu and remove media_browser_plus
+    - instead create installation profile and feature modules
   - jquery_update: should be updated from 2.3 to 2.4
+
+##Super
+- Commerce:
+  - Clarify security implications of granting "View any Product product"
+    permission https://www.drupal.org/node/1303194
