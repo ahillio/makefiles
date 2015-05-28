@@ -13,6 +13,7 @@
   - r4032login
   - prlp or simple_pass_reset
   - super_login
+  - custom_search
 - functionality
   - Analytics dashboard with google_analytics_reports (which needs to be updated to use charts module instead of deprecated chart)
 - tasks
