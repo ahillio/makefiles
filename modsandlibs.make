@@ -208,6 +208,8 @@ projects[checklistapi][version] = 1.1
 projects[seo_checklist][version] = 4.1
 projects[site_verify][version] = 1.1
 
+projects[twitter_block][version] = 2.2
+
 projects[wssf][type] = module
 projects[wssf][version] = 1.2-beta
 projects[wssf][download][type] = "git"
