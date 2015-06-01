@@ -1,5 +1,17 @@
 # To Do
 
+## Installation Profile
+- Ckeditor feature module
+  - Might need patches
+    - https://www.drupal.org/node/1948466
+    - https://www.drupal.org/node/2030087
+    - both of which are included in Drupal Commons' wysiwyg feature:
+      http://cgit.drupalcode.org/commons/tree/modules/commons/commons_wysiwyg
+  - Include LinkIt
+  - dgo.to/ckeditor_widgets ?
+  - ckeditor styles - floats etc
+
+
 ## Standard 
 - admin modules:
   - admin_menu_source
