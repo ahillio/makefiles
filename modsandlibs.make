@@ -28,7 +28,7 @@ projects[field_collection_feeds][version] = 1.0-alpha3
 projects[media_feeds][version] = 2.x-dev
 projects[migrate][version] = 2.5
 
-projects[ds][version] = 2.7
+projects[ds][version] = 2.10
 projects[entity_view_mode][version] = 1.0-rc1
 projects[taxonomy_display][version] = 1.1
 projects[diff][version] = 3.2
