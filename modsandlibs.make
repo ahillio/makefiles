@@ -199,6 +199,7 @@ projects[google_adwords][version] = 2.0
 projects[xmlsitemap][version] = 2.0-rc2
 projects[metatag][version] = 1.0-beta9
 projects[pathauto][version] = 1.2
+projects[pathologic][version] = 2.12
 projects[globalredirect][version] = 1.5
 projects[extlink][version] = 1.13
 projects[redirect][version] = 1.0-rc1
