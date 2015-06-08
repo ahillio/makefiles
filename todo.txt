@@ -37,6 +37,7 @@
   - jquery_update: should be updated from 2.3 to 2.4
 
 ##Super
+- dgo.to/flexiform for creating multiple entites in a single form
 - Commerce:
   - Clarify security implications of granting "View any Product product"
     permission https://www.drupal.org/node/1303194
