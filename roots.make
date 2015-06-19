@@ -125,6 +125,10 @@ projects[lightbox2][version] = "1.0-beta1"
 
 projects[link][version] = "1.2"
 
+projects[mailsystem][version] = "2.34"
+
+projects[mandrill][version] = "2.0"
+
 projects[media_youtube][version] = "2.0-rc3"
 
 projects[mediafront][version] = "2.2"
@@ -136,6 +140,8 @@ projects[metatag_panels][version] = "1.0-beta1"
 projects[message][version] = "1.7"
 
 projects[message_notify][version] = "2.4"
+
+projects[mimemail][version] = "1.0-beta3"
 
 projects[module_filter][version] = "2.0-alpha2"
 
@@ -207,92 +213,46 @@ projects[webskillet15][download][url] = "git@github.com:Webskillet/webskillet15.
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[flexslider][download][type] = ""
-libraries[flexslider][download][url] = ""
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[stripe-php][download][type] = ""
-libraries[stripe-php][download][url] = ""
+libraries[stripe-php][download][type] = "get"
+libraries[stripe-php][download][url] = "https://github.com/stripe/stripe-php/archive/master.zip"
 libraries[stripe-php][directory_name] = "stripe-php"
 libraries[stripe-php][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[plupload][download][type] = ""
-libraries[plupload][download][url] = ""
-libraries[plupload][directory_name] = "plupload"
-libraries[plupload][type] = "library"
-
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[json2][download][type] = ""
-libraries[json2][download][url] = ""
-libraries[json2][directory_name] = "json2"
-libraries[json2][type] = "library"
-
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[mandrill][download][type] = ""
-libraries[mandrill][download][url] = ""
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/master.zip"
 libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[proj4js][download][type] = ""
-libraries[proj4js][download][url] = ""
-libraries[proj4js][directory_name] = "proj4js"
-libraries[proj4js][type] = "library"
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[nivo-slider][download][type] = ""
-libraries[nivo-slider][download][url] = ""
-libraries[nivo-slider][directory_name] = "nivo-slider"
-libraries[nivo-slider][type] = "library"
-
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[colorbox][download][type] = ""
-libraries[colorbox][download][url] = ""
-libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][type] = "library"
-
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[chosen][download][type] = ""
-libraries[chosen][download][url] = ""
-libraries[chosen][directory_name] = "chosen"
-libraries[chosen][type] = "library"
-
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[jquery.cycle][download][type] = ""
-libraries[jquery.cycle][download][url] = ""
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-libraries[jquery.cycle][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[ckeditor][download][type] = ""
-libraries[ckeditor][download][url] = ""
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[mailchimp][download][type] = ""
-libraries[mailchimp][download][url] = ""
-libraries[mailchimp][directory_name] = "mailchimp"
-libraries[mailchimp][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-libraries[tinymce][download][type] = ""
-libraries[tinymce][download][url] = ""
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "https://github.com/downloads/tinymce/tinymce/tinymce_3.5.8_jquery.zip"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][type] = "library"
 
