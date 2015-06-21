@@ -24,6 +24,8 @@
   - views_bootstrap
   - ds_bootstrap_layouts
   - context_entity_field
+  - webform_alt_ui
+  - form_builder
 - ux module niceness
   - r4032login
   - prlp or simple_pass_reset
