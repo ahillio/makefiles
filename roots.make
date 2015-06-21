@@ -125,6 +125,8 @@ projects[lightbox2][version] = "1.0-beta1"
 
 projects[link][version] = "1.2"
 
+projects[mailcontrol][version] = "1.0"
+
 projects[mailsystem][version] = "2.34"
 
 projects[mandrill][version] = "2.0"
