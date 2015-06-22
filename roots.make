@@ -58,6 +58,8 @@ projects[commerce_features][version] = "1.0-rc1"
 
 projects[commerce_message][version] = "1.0-beta1"
 
+projects[commerce_message_pane][version] = "1.0"
+
 projects[commerce_recurring][version] = "2.x-dev"
 
 projects[commerce_rules_extra][version] = "2.1"
