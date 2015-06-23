@@ -2,6 +2,7 @@
 
 ## Updates and maintenance
 - webform conditional to 2.x-dev (in prep for webform 4 update)
+- test all sites for media 2.0-alpha4+27 downgrading to alpha4+25 ... or apply  patch to most recent dev
 
 ## Installation Profile
 - Ckeditor feature module
@@ -26,6 +27,7 @@
   - context_entity_field
   - webform_alt_ui
   - form_builder
+  - linkit_target
 - ux module niceness
   - r4032login
   - prlp or simple_pass_reset
