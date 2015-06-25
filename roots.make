@@ -225,7 +225,7 @@ libraries[flexslider][type] = "library"
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[stripe-php][download][type] = "get"
-libraries[stripe-php][download][url] = "https://github.com/stripe/stripe-php/archive/master.zip"
+libraries[stripe-php][download][url] = "https://github.com/stripe/stripe-php/archive/v1.18.0.tar.gz"
 libraries[stripe-php][directory_name] = "stripe-php"
 libraries[stripe-php][type] = "library"
 
