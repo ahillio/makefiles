@@ -105,6 +105,8 @@ projects[field_tools][version] = "1.0-alpha8"
 
 projects[flexslider][version] = "2.0-alpha3"
 
+projects[honeypot][version] = "1.18"
+
 projects[media][version] = "1.4"
 
 projects[filter_perms][version] = "1.0"
