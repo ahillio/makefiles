@@ -1,5 +1,8 @@
 # Updates Needed
  - inline_entity_form to 1.6
+ - jquery_update
+ - drupal core
+ - admin_views
 
 # Version 7.36.2a
 Super platform sites were breaking - roots could not add products to cart
