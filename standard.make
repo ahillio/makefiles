@@ -6,8 +6,7 @@ core = 7.x
 api = 2
 ; Core project
 ; ------------
-; projects[drupal][version] = 7.36
-
+; projects[drupal][version] = get this from core.make instead 
 ; Links to Base make file
 ; ------------------------
 includes[] = ./core.make
@@ -15,8 +14,8 @@ includes[] = ./modsandlibs.make
 
 
 projects[media][version] = 2.x-dev
-projects[media][download][type] = git
-projects[media][download][url] = "https://github.com/ahillio/media.git"
+; projects[media][download][type] = git
+; projects[media][download][url] = "https://github.com/ahillio/media.git"
 projects[file_entity][version] = 2.x-dev
 projects[multiform][version] = 1.1
 projects[views_tree][version] = 2.0
