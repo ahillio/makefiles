@@ -41,6 +41,7 @@ projects[job_scheduler][version] = 2.0-alpha3
 projects[menu_token][version] = 1.0-beta5
 projects[menu_attributes][version] = 1.0-rc2
 projects[simplified_menu_admin][version] = 1.x-dev
+projects[special_menu_items][version] = 2.0
 
 projects[logintoboggan][version] = 1.4
 projects[email_registration][version] = 1.1
@@ -63,7 +64,7 @@ projects[views_timelinejs][download][url] = "git://github.com/ahillio/views_time
 // Hopefully this patch gets applied!
 // It does NOT
 // Perhaps because the patch number is not included?  Let's try that...
-projects[views_timelinejs][patch][2120587] = "https://www.drupal.org/files/issues/views_timelinejs-2120587.patch"
+// projects[views_timelinejs][patch][2120587] = "https://www.drupal.org/files/issues/views_timelinejs-2120587.patch"
 // I believe it still did not apply
 projects[better_exposed_filters][version] = 3.0-beta4
 projects[eva][version] = 1.2
@@ -91,6 +92,7 @@ projects[webform_template][version] = 1.2
 projects[auto_entitylabel][version] = 1.3
 projects[field_formatter_class][version] = 1.1
 projects[field_formatter_settings][version] = 1.1
+projects[ffc][version] = 1.0-beta2
 projects[entityreference][version] = 1.x-dev
 projects[entityreference_prepopulate][version] = 1.4
 projects[inline_entity_form][version] = 1.5

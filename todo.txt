@@ -4,22 +4,11 @@
 - webform conditional to 2.x-dev (in prep for webform 4 update)
 - test all sites for media 2.0-alpha4+27 downgrading to alpha4+25 ... or apply  patch to most recent dev
 
-## Installation Profile
-- Ckeditor feature module
-  - Might need patches
-    - https://www.drupal.org/node/1948466
-    - https://www.drupal.org/node/2030087
-    - both of which are included in Drupal Commons' wysiwyg feature:
-      http://cgit.drupalcode.org/commons/tree/modules/commons/commons_wysiwyg
-  - Include LinkIt
-  - dgo.to/ckeditor_widgets ?
-  - ckeditor styles - floats etc
-
 
 ## Standard 
 - admin modules:
   - admin_menu_source
-  - ore views_maintenance
+  - views_maintenance
 - site-building modules:
   - mmenu
   - views_bootstrap
@@ -28,6 +17,7 @@
   - webform_alt_ui
   - form_builder
   - linkit_target
+  - wysiwyg_fields
 - ux module niceness
   - r4032login
   - prlp or simple_pass_reset
