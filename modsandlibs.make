@@ -51,7 +51,7 @@ projects[bean][version] = 1.8
 projects[entityform][version] = 2.0-beta2
 projects[entityform_block][version] = 1.0
 projects[entity2text][version] = 1.0-alpha2
-projects[entityrules][version] = 1.0-alpha4
+projects[entity_rules][version] = 1.0-alpha4
 projects[context][version] = 3.6
 projects[date][version] = 2.9-alpha2
 projects[views][version] = 3.11
@@ -285,7 +285,7 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet.markercluster][download][type] = "get"
 libraries[leaflet.markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster/archive/master.zip"
