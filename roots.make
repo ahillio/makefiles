@@ -3,16 +3,16 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.34"
+includes[] = ./core.make
 
 ; Modules
-projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][version] = "3.3"
 
 projects[addressfield][version] = "1.0-beta5"
 
 projects[admin_menu][version] = "3.0-rc4"
 
-projects[admin_views][version] = "1.1"
+projects[admin_views][version] = "1.5"
 
 projects[adminimal_admin_menu][subdir] = "contrib"
 projects[adminimal_admin_menu][version] = "1.5"
@@ -22,9 +22,10 @@ projects[auto_entitylabel][version] = "1.3"
 
 projects[service_links][version] = "2.1"
 
-projects[ctools][version] = "1.x-dev"
-projects[ctools][download][type] = "git"
-projects[ctools][download][url] = "git@github.com:ahillio/ctools.git"
+projects[ctools][version] = 1.9
+; projects[ctools][version] = "1.x-dev"
+; projects[ctools][download][type] = "git"
+; projects[ctools][download][url] = "git@github.com:ahillio/ctools.git"
 
 projects[bundleswitcher][version] = "1.0-beta1"
 
@@ -38,9 +39,9 @@ projects[commerce_attributes_date][version] = "1.0"
 projects[commerce_attributes_date][download][type] = "git"
 projects[commerce_attributes_date][download][url] = "git@github.com:ahillio/commerce_attributes_date.git"
 
-projects[commerce_backoffice][subdir] = "contrib"
-projects[commerce_backoffice][version] = "1.2"
-projects[commerce_backoffice][patches][0] = "http://drupal.org/files/commerce_backoffice_product-add-product-variations-view-1954150-4.patch"
+; projects[commerce_backoffice][subdir] = "contrib"
+projects[commerce_backoffice][version] = "1.4"
+; projects[commerce_backoffice][patches][0] = "http://drupal.org/files/commerce_backoffice_product-add-product-variations-view-1954150-4.patch"
 
 projects[commerce_cardonfile][version] = "2.x-dev"
 projects[commerce_cardonfile][download][type] = "git"
@@ -68,23 +69,23 @@ projects[commerce_stripe][version] = "1.x-dev"
 
 projects[block_class][version] = "2.1"
 
-projects[context][version] = "3.2"
+projects[context][version] = "3.6"
 
 projects[date][version] = "2.9-alpha2"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.11"
 
 projects[fontyourface][version] = "2.8"
 
 projects[email_registration] = "1.2"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 
 projects[entitycache][version] = "1.2"
 
 projects[entityform][version] = "2.0-beta2"
 
-projects[entityreference][version] = "1.0-rc3"
+projects[entityreference][version] = "1.6"
 
 projects[eva][version] = "1.2"
 
@@ -117,7 +118,7 @@ projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][version] = "1.4"
 
-projects[inline_entity_form][version] = "1.5"
+projects[inline_entity_form][version] = "1.6"
 
 projects[interval][version] = "1.0-rc1"
 
@@ -151,7 +152,7 @@ projects[mimemail][version] = "1.0-beta3"
 
 projects[module_filter][version] = "2.0-alpha2"
 
-projects[mollom][version] = "2.10"
+projects[mollom][version] = "2.14
 
 projects[om_maximenu][version] = "1.44"
 
@@ -163,11 +164,11 @@ projects[pathauto][version] = "1.2"
 
 projects[plupload][version] = "1.6"
 
-projects[quicktabs][version] = "3.4"
+projects[quicktabs][version] = "3.6"
 
 projects[redhen][version] = "1.9"
 
-projects[relation][version] = "1.0-rc4"
+projects[relation][version] = "1.0"
 
 projects[robotstxt][version] = "1.2"
 
@@ -190,7 +191,7 @@ projects[uuid][version] = "1.0-alpha5"
 
 projects[uuid_features][version] = "1.0-alpha4"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.11"
 
 projects[views_autocomplete_filters][version] = "1.2"
 
@@ -200,7 +201,7 @@ projects[views_megarow][version] = "1.0"
 
 projects[views_slideshow][version] = "3.1"
 
-projects[webform][version] = "3.20"
+projects[webform][version] = "3.24"
 
 projects[widgets][version] = "1.0-rc1"
 
