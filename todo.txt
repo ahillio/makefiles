@@ -1,9 +1,12 @@
 # To Do
 
+add feeds_xpathparser entityreference_prepopulate
+
+
 ## Updates and maintenance
 - webform conditional to 2.x-dev (in prep for webform 4 update)
 - test all sites for media 2.0-alpha4+27 downgrading to alpha4+25 ... or apply  patch to most recent dev
-
+- metatag to 1.7
 
 ## Standard 
 - admin modules:
