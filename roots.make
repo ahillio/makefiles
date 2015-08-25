@@ -85,7 +85,7 @@ projects[entitycache][version] = "1.2"
 
 projects[entityform][version] = "2.0-beta2"
 
-projects[entityreference][version] = "1.6"
+projects[entityreference][version] = "1.1"
 
 projects[eva][version] = "1.2"
 
@@ -152,7 +152,7 @@ projects[mimemail][version] = "1.0-beta3"
 
 projects[module_filter][version] = "2.0-alpha2"
 
-projects[mollom][version] = "2.14
+projects[mollom][version] = "2.14"
 
 projects[om_maximenu][version] = "1.44"
 
