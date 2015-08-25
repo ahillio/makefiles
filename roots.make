@@ -85,7 +85,7 @@ projects[entitycache][version] = "1.2"
 
 projects[entityform][version] = "2.0-beta2"
 
-projects[entityreference][version] = "1.6"
+projects[entityreference][version] = "1.1"
 
 projects[eva][version] = "1.2"
 
