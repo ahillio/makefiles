@@ -172,7 +172,7 @@ projects[relation][version] = "1.0"
 
 projects[robotstxt][version] = "1.2"
 
-; projects[rules][version] = "2.6"
+projects[rules][version] = "2.9"
 ; projects[rules][version] = "2.8+2-dev"
 
 projects[save_draft][version] = "1.4"
