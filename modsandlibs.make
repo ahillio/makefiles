@@ -144,6 +144,7 @@ projects[superfish][version] = 1.9
 projects[draggableviews][version] = 2.0
 projects[views_accordion][version] = 1.0
 projects[views_slideshow][version] = 3.1
+projects[views_random][version] = 1.x-dev
 projects[quicktabs][version] = 3.6
 projects[css_injector][version] = 1.8
 projects[jquery_update][version] = 2.3
