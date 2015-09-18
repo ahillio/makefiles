@@ -30,6 +30,7 @@ projects[migrate][version] = 2.5
 
 projects[ds][version] = 2.10
 projects[ds_extra_layouts][version] = 1.1
+projects[ds_bootstrap_layouts][version] = 3.1
 projects[entity_view_mode][version] = 1.0-rc1
 projects[taxonomy_display][version] = 1.1
 projects[diff][version] = 3.2
