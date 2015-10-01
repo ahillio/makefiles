@@ -55,6 +55,7 @@ projects[entityform_block][version] = 1.0
 projects[entity2text][version] = 1.0-alpha2
 projects[entity_rules][version] = 1.0-alpha4
 projects[context][version] = 3.6
+projects[context_entity_field][version] = 1.1
 projects[date][version] = 2.9-alpha2
 projects[views][version] = 3.11
 projects[views_bulk_operations][version] = 3.3
