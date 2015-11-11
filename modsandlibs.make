@@ -95,6 +95,7 @@ projects[webform_template][version] = 1.2
 projects[auto_entitylabel][version] = 1.3
 projects[field_formatter_class][version] = 1.1
 projects[field_formatter_settings][version] = 1.1
+projects[linked_field][version] = 1.10
 projects[ffc][version] = 1.0-beta2
 projects[entityreference][version] = 1.x-dev
 projects[entityreference_prepopulate][version] = 1.4
