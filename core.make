@@ -1,2 +1,2 @@
-projects[drupal][version] = 7.39                                                                 
+projects[drupal][version] = 7.43
 
