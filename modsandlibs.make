@@ -62,7 +62,7 @@ projects[entity_rules][version] = 1.0-alpha4
 projects[context][version] = 3.6
 projects[context_entity_field][version] = 1.1
 projects[date][version] = 2.9-alpha2
-projects[views][version] = 3.11
+projects[views][version] = 3.13+29-dev
 projects[views_bulk_operations][version] = 3.3
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
@@ -308,7 +308,9 @@ libraries[leaflet.markercluster][download][url] = "https://github.com/Leaflet/Le
 libraries[leaflet.markercluster][directory_name] = "leaflet_markercluster"
 
 libraries[timelinejs][download][type] = "git"
-libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJS.git"
+// libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJS.git"
+// retrieve usable version:
+libraries[timelinejs][download][url] = "https://github.com/ahillio/timelinejs.git"
 libraries[timelinejs][directory_name] = "timeline"
 
 libraries[backbone][download][type] = "git"

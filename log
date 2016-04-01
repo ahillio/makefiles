@@ -1,5 +1,46 @@
-9a2b2b2 (HEAD, master) put back contrib subdir
-740a183 (origin/master) get patched relation-rc7 from github
+37c5618 (HEAD -> master) update drupal to 7.43
+53e555c add buncha modules, update select_or_other
+68d296b (origin/master, origin/HEAD) add linked_field
+58b0536 add context_entity_field
+cc7a50d add ds_bootstrap_layouts
+bb15b25 add ds_extra_layouts
+339dae5 add views_random
+c4a4839 Merge branch 'master' of github.com:ahillio/makefiles
+e34256a typos - quote and version#
+9f3771e typo missing quote
+251700b add rules to roots.make
+67ce265 fix version for entityreference (1.1)
+d5ca1af Merge branch 'master' of github.com:ahillio/makefiles
+c96b546 Update roots.make for 7.39.1 build core 7.34 > 7.39 vbo 3.2 > 3.3 admin_views 1.1 > 1.5 ctools patched dev > 1.9 commerce_backoffice 1.2 > 1.4 context 3.2 > 3.6 ds 2.7 > 2.11 entity 1.5 > 1.6 entityreference 1.0-rc3 > 1.6 inline_entity_form 1.5 > 1.6 mollom  2.10 > 2.14 quicktabs 3.4 > 3.6 relation 1.0-rc4 > 1.0 views 3.8 > 3.11 webform 3.2 > 3.24
+117ef28 notes for future updates
+b70f61e Fix entity_rules typo.  Change leaflet js url.
+0edf8e0 fix merge conflict in notes.txt
+dfdd6b6 Notes/todos, add ffc module. Commit to pull-push, cleanup.
+1ca95ba Merge branch 'master' of github.com:ahillio/makefiles
+e956659 Ready to build D7.39 platforms
+78a9269 add honeypot to roots.make
+17e01b7 downgrade version of stipe-php library
+886437d todos
+3fd6b6f add commerce_message_pane
+177cfe3 add mailcontrol to roots.make
+edc26a2 note todo: form builder ui modules
+b997375 Add/edit libraries and add mail-sending modules
+2fc6f18 add roots.make
+6177299 note inline_entity_form needs update
+5bba688 add entityrules and entity2text
+6fa1b7f note flexiform for super.platform todo
+006e563 note webform_conditions updates
+8926528 added pathologic
+f0f5f6d update display suite to 2.10
+de642d6 add twitter_block
+9dc7607 notes on installation profile
+d448886 add mod to todo list
+13f38d8 Merge branch 'master' of github.com:ahillio/makefiles
+5604003 notes about commerce product permissions
+fc40f93 add mmenu in todo
+20539ec Build 7.36.2a
+9a2b2b2 put back contrib subdir
+740a183 get patched relation-rc7 from github
 f369c9e relation should download successfully now & updated to rc7
 244a789 Build 7.36.2 ....for real this time
 a52971a get rid of /contrib directory
