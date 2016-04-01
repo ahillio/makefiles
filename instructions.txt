@@ -1,15 +1,26 @@
 # Git guidelines
+
 1. Commit module changes individually
 2. For build commit:
    - git log --oneline --decorate > log.txt
    - git commit -m "Build 7.x.y"
 
+
+- - - 
+
+
 # Platform Build Instructions
-1. drush make makefiles/platform.make platform-1.x.y
-2. cp -R install-profiles/firestick platform-1.x.y/profiles/
-/switch to root/
-3. chown -R o1 name.platform-1.x.y
-4. chmod 775 name.platform-1.x.y
-5. chmod -R 775 name.platform-1.x.y
-6. in aegir create new platform named name.platform-1.x.y
+
+// Simpler now on hosted BOA :)
+1. run: `drush make makefiles/platform.make platform-1.x.y`
+2. create platform in Aegir named *platform-1.x.y*
+
+
+- - - 
+
+
+# Test migration of sites
+
+Check:
+- timelinejs works on PJU
 

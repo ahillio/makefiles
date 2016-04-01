@@ -48,6 +48,11 @@ projects[special_menu_items][version] = 2.0
 projects[logintoboggan][version] = 1.4
 projects[email_registration][version] = 1.1
 projects[persistent_login][version] = 1.0-beta1
+projects[realname][version] = 1.2
+projects[prlp][version] = 1.1
+projects[super_login][version] = 1.1
+
+projects[mimemail][version] = 1.0-beta4
 
 projects[bean][version] = 1.8
 projects[entityform][version] = 2.0-beta2
@@ -57,10 +62,12 @@ projects[entity_rules][version] = 1.0-alpha4
 projects[context][version] = 3.6
 projects[context_entity_field][version] = 1.1
 projects[date][version] = 2.9-alpha2
-projects[views][version] = 3.11
+projects[views][version] = 3.13+29-dev
 projects[views_bulk_operations][version] = 3.3
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
+projects[views_show_more][version] = 2.0
+projects[better_exposed_filters][version] = 3.2
 projects[views_timelinejs][version] = 1.x-dev
 projects[views_timelinejs][download][type] = "git"
 projects[views_timelinejs][download][url] = "git://github.com/ahillio/views_timelinejs.git"
@@ -95,11 +102,12 @@ projects[webform_template][version] = 1.2
 projects[auto_entitylabel][version] = 1.3
 projects[field_formatter_class][version] = 1.1
 projects[field_formatter_settings][version] = 1.1
+projects[linked_field][version] = 1.10
 projects[ffc][version] = 1.0-beta2
 projects[entityreference][version] = 1.x-dev
 projects[entityreference_prepopulate][version] = 1.4
 projects[inline_entity_form][version] = 1.6
-projects[select_or_other] = 2.2
+projects[select_or_other] = 2.22
 projects[interval][version] = 1.0-rc1
 projects[link][version] = 1.2
 projects[email][version] = 1.2
@@ -112,6 +120,7 @@ projects[field_group][download][type] = "git"
 projects[field_group][download][url] = "git@github.com:ahillio/field_group.git"
 projects[field_collection][version] = 1.0-beta5
 projects[chosen][version] = 2.0-beta4
+projects[form_placeholder][version] = 1.6
 projects[options_element][version] = 1.12
 projects[conditional_fields][version] = 3.0-alpha1
 projects[bundleswitcher][version] = 1.0-beta1
@@ -164,6 +173,8 @@ projects[ckeditor][version] = 1.16
 projects[ckeditor_link][version] = 2.3
 projects[ace_editor][version] = 1.1
 
+projects[view_unpublished][version] = 1.2
+
 projects[widgets][version] = 1.0-rc1
 projects[service_links][version] = 2.1
 projects[sharethis][version] = 2.6
@@ -199,6 +210,7 @@ projects[leaflet][download][type] = "git"
 projects[leaflet][download][url] = "git://github.com/ahillio/leaflet.git"
 projects[leaflet_markercluster][version] = 1.1
 projects[leaflet_more_maps][version] = 1.9
+projects[leaflet_widget][version] = 2.x-dev
 
 projects[mailchimp][version] = 3.4
 
@@ -296,7 +308,9 @@ libraries[leaflet.markercluster][download][url] = "https://github.com/Leaflet/Le
 libraries[leaflet.markercluster][directory_name] = "leaflet_markercluster"
 
 libraries[timelinejs][download][type] = "git"
-libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJS.git"
+// libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJS.git"
+// retrieve usable version:
+libraries[timelinejs][download][url] = "https://github.com/ahillio/timelinejs.git"
 libraries[timelinejs][directory_name] = "timeline"
 
 libraries[backbone][download][type] = "git"
