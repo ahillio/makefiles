@@ -20,7 +20,6 @@ projects[node_export][version] = 3.0
 projects[uuid][version] = 1.0-alpha5
 // projects[feeds][version] = 2.x-dev
 // projects[feeds][download][type] = "get"
-// projects[feeds][download][url] = "http://git.drupal.org/project/feeds.git"
 projects[feeds][version] = 2.x-dev
 projects[feeds_tamper][version] = 1.0
 projects[feeds_ex][version] = 1.x-dev
@@ -62,15 +61,16 @@ projects[entity_rules][version] = 1.0-alpha4
 projects[context][version] = 3.6
 projects[context_entity_field][version] = 1.1
 projects[date][version] = 2.9-alpha2
-projects[views][version] = 3.13+29-dev
+//projects[views][version] = 3.13+29-dev
+projects[views][version] = 3.x-dev
 projects[views_bulk_operations][version] = 3.3
 projects[views_calc][version] = 1.0
 projects[views_data_export][version] = 3.0-beta6
 projects[views_show_more][version] = 2.0
 projects[better_exposed_filters][version] = 3.2
-projects[views_timelinejs][version] = 1.x-dev
-projects[views_timelinejs][download][type] = "git"
-projects[views_timelinejs][download][url] = "git://github.com/ahillio/views_timelinejs.git"
+// projects[views_timelinejs][version] = 1.x-dev
+// projects[views_timelinejs][download][type] = "git"
+// projects[views_timelinejs][download][url] = "git://github.com/ahillio/views_timelinejs.git"
 // Hopefully this patch gets applied!
 // It does NOT
 // Perhaps because the patch number is not included?  Let's try that...
@@ -161,6 +161,8 @@ projects[quicktabs][version] = 3.6
 projects[css_injector][version] = 1.8
 projects[jquery_update][version] = 2.3
 
+projects[date_popup_authored][version] = 1.2
+projects[override_node_options][version] = 1.13
 projects[addanother][version] = 2.2
 projects[save_draft][version] = 1.4
 projects[exclude_node_title][version] = 1.6
@@ -284,7 +286,7 @@ libraries[jplayer][download][url] = "https://github.com/happyworm/jPlayer.git"
 
 libraries[plupload][download][type] = "git"
 libraries[plupload][download][url] = "https://github.com/ahillio/plupload_library.git"
-; originally from https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
+// originally from https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip
 libraries[plupload][directory_name] = "plupload"
 
 libraries[colorbox][download][type] = "get"
@@ -307,11 +309,11 @@ libraries[leaflet.markercluster][download][type] = "get"
 libraries[leaflet.markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster/archive/master.zip"
 libraries[leaflet.markercluster][directory_name] = "leaflet_markercluster"
 
-libraries[timelinejs][download][type] = "git"
+// libraries[timelinejs][download][type] = "get"
 // libraries[timelinejs][download][url] = "https://github.com/NUKnightLab/TimelineJS.git"
 // retrieve usable version:
-libraries[timelinejs][download][url] = "https://github.com/ahillio/timelinejs.git"
-libraries[timelinejs][directory_name] = "timeline"
+// libraries[timelinejs][download][url] = "https://github.com/ahillio/timelinejs.git"
+// libraries[timelinejs][directory_name] = "timeline"
 
 libraries[backbone][download][type] = "git"
 libraries[backbone][download][url] = "https://github.com/jashkenas/backbone.git"
