@@ -52,6 +52,9 @@ projects[prlp][version] = 1.1
 projects[super_login][version] = 1.1
 
 projects[mimemail][version] = 1.0-beta4
+projects[mailsystem][version] = 2.34
+projects[smtp][version] = 1.3
+projects[maillog][version] = 1.0-alpha1
 
 projects[bean][version] = 1.8
 projects[entityform][version] = 2.0-beta2
