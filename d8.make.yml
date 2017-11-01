@@ -70,6 +70,8 @@ projects:
   focal_point:
     version: "1.0-beta5"
 # Utilities:
+  entity:
+    version: "1.0-beta1"
   token:
     version: "1.0"
   pathauto:
