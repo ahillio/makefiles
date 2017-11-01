@@ -1,0 +1,69 @@
+api: 2
+core: "8.x"
+
+projects:
+  drupal:
+# get most recent version:
+    version: ~
+#    version: "4.0"
+# Theme:
+  bootstrap:
+    version: "3.6"
+  bootstrap_layouts:
+    version: "5.0"
+# Page building:
+  panels:
+    version: "4.2"
+  page_manager:
+    version: "4.0-beta2"
+  ds:
+    version: "3.1"
+  paragraphs:
+    version: "1.2"
+  # bootstrap_paragraphs:
+  #   version: "2.0-alpha-3"
+  viewsreference:
+    version: "1.0-alpha8"
+  entity_reference_revisions:
+    version: "1.2"
+  contact_formatter:
+    version: "1.0"
+  ajax_links_api:
+    version: "1.0"
+# Media:
+  media_entity:
+    version: "1.6"
+  media_entity_image:
+    version: "1.2"
+  media_entity_document:
+    version: "1.1"
+  media_entity_facebook:
+    version: "1.0-alpha2"
+  embed:
+    version: "1.0"
+  entity_embed:
+    version: "1.0-beta2"
+  entity_browser:
+    version: "1.3"
+  file_browser:
+    version: "1.1"
+  dropzonejs:
+    version: "1.0-alpha8"
+  crop:
+    version: "1.3"
+  image_widget_crop:
+    # requires https://github.com/fengyuanchen/cropper:
+    version: "2.0"
+  focal_point:
+    version: "1.0-beta5"
+# Utilities:
+  token:
+    version: "1.0"
+  pathauto:
+    version: "1.0"
+  redirect:
+    version: "1.0-beta1"
+  diff:
+    version: "1.0-rc1"
+  xmlsitemap:
+    version: "1.0-alpha2"
