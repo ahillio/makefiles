@@ -1,10 +1,7 @@
 # Git guidelines
 
 1. Commit module changes individually
-2. For build commit:
-   - git log --oneline --decorate > log.txt
-   - git commit -m "Build 7.x.y"
-     ** actually, builds should just be tagged, no special commit message necessary.
+2. For build commit: git tag the commit the platform's built from with the name of the platform
 
 
 - - - 
