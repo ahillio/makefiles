@@ -43,6 +43,8 @@ projects:
     version: "1.0"
   ajax_links_api:
     version: "1.0"
+  ultimenu:
+    version: "1.6"
 # Media:
   media_entity:
     version: "1.6"
