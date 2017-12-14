@@ -200,6 +200,7 @@ projects[themekey][version] = 3.2
 projects[omega_tools][version] = 3.0-rc4
 projects[devel][version] = 1.4
 projects[devel_themer][version] = 1.x-dev
+projects[search_krumo][version] = 1.6
 projects[simplehtmldom][version] = 1.12
 
 projects[modernizr][version] = 3.1
