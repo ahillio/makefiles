@@ -185,6 +185,8 @@ projects[service_links][version] = 2.1
 projects[sharethis][version] = 2.6
 projects[mollom][version] = 2.14
 projects[honeypot][version] = 1.14
+projects[captcha][version] = 1.5
+projects[recaptcha][version] = 2.2
 projects[disqus][version] = 1.10
 
 projects[omega][version] = 3.1
